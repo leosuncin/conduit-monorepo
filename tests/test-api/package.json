@@ -1,0 +1,20 @@
+{
+  "name": "test-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E2E tests for the backend",
+  "keywords": ["bruno"],
+  "license": "LGPL-3.0-or-later",
+  "author": "Jaime Leonardo Suncin Cruz",
+  "type": "commonjs",
+  "scripts": {
+    "test:ci": "bru run --env development --reporter-html e2e-report.html",
+    "test:e2e": "bru run --env development"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0",
+    "@usebruno/cli": "^2.1.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}

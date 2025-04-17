@@ -1,0 +1,13 @@
+{
+  "framework": "react",
+  "typescript": true,
+  "projectName": "frontend",
+  "mode": "file-router",
+  "tailwind": true,
+  "packageManager": "pnpm",
+  "toolchain": "biome",
+  "variableValues": {},
+  "git": false,
+  "version": 1,
+  "existingAddOns": ["form", "shadcn", "tanstack-query"]
+}

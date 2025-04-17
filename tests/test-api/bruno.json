@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "name": "RealWorld Conduit API",
+  "type": "collection",
+  "ignore": ["node_modules", ".git"],
+  "scripts": {
+    "moduleWhitelist": ["querystring"],
+    "filesystemAccess": {
+      "allow": true
+    }
+  }
+}

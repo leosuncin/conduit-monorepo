@@ -1,0 +1,123 @@
+services:
+  backend:
+    build:
+      context: .
+      args:
+        PROJECT: backend
+      target: develop
+    command: pnpm run --parallel --filter=backend... dev
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file: .env
+    environment:
+      - FASTIFY_ADDRESS=0.0.0.0
+      - POSTGRES_HOST=postgres
+    develop:
+      watch:
+        - action: sync
+          path: ./apps/backend
+          target: /monorepo/apps/backend
+          ignore:
+            - ./apps/backend/node_modules
+            - ./apps/backend/tests/**
+        - action: sync
+          path: ./packages/data-access-layer/src
+          target: /monorepo/packages/data-access-layer/src
+        - action: rebuild
+          path: ./apps/backend/package.json
+        - action: rebuild
+          path: ./apps/packages/data-access-layer/package.json
+        - action: sync+exec
+          path: ./migrations
+          target: /monorepo/migrations
+          exec:
+            command: >
+              migrate -path=/monorepo/migrations -database=postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres:5432/$POSTGRES_DB?sslmode=disable down -all &&
+              migrate -path=/monorepo/migrations -database=postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres:5432/$POSTGRES_DB?sslmode=disable up
+    labels:
+      - 'traefik.enable=true'
+      - "traefik.http.routers.backend.rule=PathPrefix(`/api`)"
+      - 'traefik.http.services.backend.loadbalancer.server.port=3000'
+      - 'traefik.http.routers.backend.middlewares=rewrite'
+      - 'traefik.http.middlewares.rewrite.replacepathregex.regex=^/api/(.*)'
+      - 'traefik.http.middlewares.rewrite.replacepathregex.replacement=/$$1'
+  frontend:
+    build:
+      context: .
+      args:
+        PROJECT: frontend
+      target: develop
+    command: pnpm run --parallel --filter=frontend... dev
+    depends_on:
+      - backend
+    develop:
+      watch:
+        - action: sync
+          path: ./apps/frontend
+          target: /monorepo/apps/frontend
+          ignore:
+            - ./apps/frontend/node_modules
+            - ./apps/frontend/tests
+        - action: rebuild
+          path: ./apps/frontend/package.json
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.frontend.rule=Host(`localhost`)'
+      - 'traefik.http.services.frontend.loadbalancer.server.port=5173'
+  proxy:
+    image: traefik:v3.3
+    command:
+      - '--providers.docker=true'
+      - '--providers.docker.exposedbydefault=false'
+      - '--entrypoints.web.address=:80'
+      - '--api.insecure=true'
+      - '--api.dashboard=true'
+      - '--log.level=INFO'
+    ports:
+      - '3000:80'
+    volumes:
+      - '/var/run/docker.sock:/var/run/docker.sock:ro'
+  postgres:
+    image: postgres:17-alpine
+    env_file: .env
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+    healthcheck:
+      test: pg_isready
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  migrate:
+    image: migrate/migrate
+    volumes:
+      - ./migrations:/migrations
+    depends_on:
+      postgres:
+        condition: service_healthy
+        restart: true
+    command:
+      - -path=/migrations/
+      - -database=postgresql://$POSTGRES_USER:$POSTGRES_PASSWORD@postgres:5432/$POSTGRES_DB?sslmode=disable
+      - up
+  integresql:
+    image: allaboutapps/integresql
+    profiles:
+      - testing
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      PGDATABASE: $POSTGRES_DB
+      PGUSER: $POSTGRES_USER
+      PGPASSWORD: $POSTGRES_PASSWORD
+      PGHOST: postgres
+      PGPORT: "5432"
+      PGSSLMODE: "disable"
+    ports:
+      - '5000:5000'
+
+volumes:
+  postgres-data:

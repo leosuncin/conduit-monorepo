@@ -1,0 +1,30 @@
+meta {
+  name: Health check route
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/health
+  body: none
+  auth: none
+}
+
+assert {
+  res.status: eq 200
+}
+
+tests {
+  const Ajv = require('ajv');
+  const addFormats = require('ajv-formats');
+  const ajv = new Ajv();
+
+  const schema = require('./schemas/HealthCheck.json');
+
+  addFormats(ajv)
+
+  test('check the response body', function () {
+    expect(ajv.validate(schema, res.body))
+      .to.be.equal(true);
+  });
+}

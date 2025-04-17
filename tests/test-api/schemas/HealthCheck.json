@@ -1,0 +1,84 @@
+{
+  "description": "All health checks passed",
+  "type": "object",
+  "properties": {
+    "healthChecks": {
+      "type": "object",
+      "additionalProperties": true,
+      "patternProperties": {
+        "\\w+": {
+          "oneOf": [
+            {
+              "type": "string",
+              "enum": ["HEALTHY"]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "status": {
+                  "type": "string",
+                  "enum": ["FAIL"]
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "creationTime": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "uptime": {
+          "type": "number"
+        },
+        "memory": {
+          "type": "object",
+          "properties": {
+            "rss": {
+              "type": "number"
+            },
+            "heapTotal": {
+              "type": "number"
+            },
+            "heapUsed": {
+              "type": "number"
+            },
+            "external": {
+              "type": "number"
+            },
+            "arrayBuffers": {
+              "type": "number"
+            }
+          }
+        }
+      }
+    },
+    "info": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "environment": {
+          "type": "string",
+          "enum": ["development", "production", "test"]
+        },
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": ["stats"]
+}

@@ -1,0 +1,15 @@
+autoInstallPeers: true
+
+strictPeerDependencies: false
+
+forceLegacyDeploy: true
+
+packages:
+  - apps/*
+  - packages/*
+  - tests/*
+
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+  - '@swc/core'
+  - 'esbuild'
