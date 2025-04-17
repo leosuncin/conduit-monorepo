@@ -61,10 +61,13 @@ jobs:
           node-version: lts/*
           args: --frozen-lockfile
       - name: Install golang-migrate/migrate
-        run: |
-          cd $(mktemp -d)
-          curl -L https://github.com/golang-migrate/migrate/releases/download/$version/migrate.linux-amd64.tar.gz | tar xvz
-          mv migrate /usr/local/bin/migrate
+        run: >-
+          wget -qO- https://api.github.com/repos/golang-migrate/migrate/releases/latest
+          | grep browser_download_url
+          | cut -d '"' -f 4
+          | grep $(uname -s | tr '[:upper:]' '[:lower:]')-$(dpkg --print-architecture).tar.gz
+          | wget -qO- -i -
+          | tar -xvz -C /usr/local/bin
       - name: Run tests
         run: pnpm test
         env:
