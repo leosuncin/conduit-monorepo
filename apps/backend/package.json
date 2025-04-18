@@ -14,7 +14,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsx node_modules/fastify-cli/cli.js start --watch -w --log-level info --pretty-logs src/app.ts",
+    "dev": "pnpm fastify start --watch --log-level info --pretty-logs src/app.ts",
+    "fastify": "cross-env NODE_OPTIONS=\"--import=tsx\" FASTIFY_AUTOLOAD_TYPESCRIPT=1 fastify",
     "start": "fastify start --log-level info dist/app.js",
     "test": "tsx --test --enable-source-maps tests/**/*.{spec,test}.ts"
   },
@@ -40,6 +41,7 @@
     "@devoxa/integresql-client": "^2.1.1",
     "@types/node": "^22.1.0",
     "c8": "^10.1.2",
+    "cross-env": "^7.0.0",
     "execa": "^9.5.2",
     "fastify-tsconfig": "^3.0.0",
     "tsx": "^4.19.3",

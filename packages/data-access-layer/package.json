@@ -11,9 +11,9 @@
     "./package.json": "./package.json",
     ".": {
       "import": {
+        "@conduit/source": "./src/index.ts",
         "types": "./dist/esm/index.d.ts",
-        "default": "./dist/esm/index.js",
-        "@conduit/source": "./src/index.ts"
+        "default": "./dist/esm/index.js"
       },
       "require": {
         "types": "./dist/commonjs/index.d.ts",
@@ -24,7 +24,11 @@
   "main": "./dist/commonjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/commonjs/index.d.ts",
-  "files": ["dist", "package.json", "README.md"],
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "build": "tshy",
     "dev": "tshy --watch",
@@ -38,8 +42,13 @@
     "all": true,
     "check-coverage": true,
     "experimental-monocart": true,
-    "reporter": ["v8", "console-details"],
-    "src": ["src"]
+    "reporter": [
+      "v8",
+      "console-details"
+    ],
+    "src": [
+      "src"
+    ]
   },
   "dependencies": {
     "@node-rs/argon2": "^2.0.2",
@@ -68,6 +77,8 @@
       "./package.json": "./package.json",
       ".": "./src/index.ts"
     },
-    "sourceDialects": ["@conduit/source"]
+    "sourceDialects": [
+      "@conduit/source"
+    ]
   }
 }
