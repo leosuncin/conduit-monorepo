@@ -1,10 +1,10 @@
 import {
+  AuthenticationService,
   type DependencyCradle,
   createConnection,
-  loadServices,
 } from '@conduit/data-access-layer';
 import { fastifyAwilixPlugin } from '@fastify/awilix';
-import { InjectionMode, Lifetime, asFunction } from 'awilix';
+import { InjectionMode, Lifetime, RESOLVER, asClass, asFunction } from 'awilix';
 import { fastifyPlugin } from 'fastify-plugin';
 import postgres from 'postgres';
 
@@ -53,15 +53,18 @@ export default fastifyPlugin<
       strictBooleanEnforced: true,
     });
 
-    fastify.diContainer.register(
-      'connection',
-      asFunction(createConnection, {
-        injectionMode: InjectionMode.CLASSIC,
-        lifetime: Lifetime.SINGLETON,
-      }).inject(() => ({ sql }))
-    );
-
-    await loadServices(fastify.diContainer);
+    fastify.diContainer
+      .register(
+        'connection',
+        asFunction(createConnection, {
+          injectionMode: InjectionMode.CLASSIC,
+          lifetime: Lifetime.SINGLETON,
+        }).inject(() => ({ sql }))
+      )
+      .register(
+        AuthenticationService[RESOLVER].name,
+        asClass(AuthenticationService)
+      );
 
     fastify.addHealthCheck('database', async () =>
       fastify.diContainer.cradle.connection.queryRunner.executeSelectOneColumnOneRow(

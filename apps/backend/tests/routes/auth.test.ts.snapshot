@@ -1,0 +1,35 @@
+exports[`Authentication routes > validate the body > require the body 1`] = `
+{
+  "statusCode": 400,
+  "code": "FST_ERR_VALIDATION",
+  "error": "Bad Request",
+  "message": "body must be object"
+}
+`;
+
+exports[`Authentication routes > validate the body > require the password 1`] = `
+{
+  "statusCode": 400,
+  "code": "FST_ERR_VALIDATION",
+  "error": "Bad Request",
+  "message": "body must have required property 'password'"
+}
+`;
+
+exports[`Authentication routes > validate the body > require the password 2`] = `
+{
+  "statusCode": 400,
+  "code": "FST_ERR_VALIDATION",
+  "error": "Bad Request",
+  "message": "body must have required property 'email'"
+}
+`;
+
+exports[`Authentication routes > validate the body > require the username 1`] = `
+{
+  "statusCode": 400,
+  "code": "FST_ERR_VALIDATION",
+  "error": "Bad Request",
+  "message": "body must have required property 'username'"
+}
+`;
