@@ -37,7 +37,7 @@ importers:
         version: 3.0.0
       syncpack:
         specifier: ^13.0.3
-        version: 13.0.3(typescript@5.8.3)
+        version: 13.0.4(typescript@5.8.3)
       turbo:
         specifier: ^2.5.0
         version: 2.5.2
@@ -792,12 +792,6 @@ packages:
 
   '@devoxa/integresql-client@2.1.1':
     resolution: {integrity: sha512-UHfJQrMu6CTqFmE+KAJiy0BOqFPVRlkdC1Ffc6qbReCzoZ5B3HNbP3Tdv4J6xOSoe5rQ9H4qn68n4x0VjAqPdQ==}
-
-  '@effect/schema@0.75.5':
-    resolution: {integrity: sha512-TQInulTVCuF+9EIbJpyLP6dvxbQJMphrnRqgexm/Ze39rSjfhJuufF7XvU3SxTgg3HnL7B/kpORTJbHhlE6thw==}
-    deprecated: this package has been merged into the main effect package
-    peerDependencies:
-      effect: ^3.9.2
 
   '@emnapi/core@1.4.0':
     resolution: {integrity: sha512-H+N/FqT07NmLmt6OFFtDfwe8PNygprzBikrEMyQfgqSmT0vzE515Pz7R8izwB9q/zsH/MA64AKoul3sA6/CzVg==}
@@ -2741,8 +2735,8 @@ packages:
   ecc-jsbn@0.1.2:
     resolution: {integrity: sha512-eh9O+hwRHNbG4BLTjEl3nw044CkGm5X6LoaCf7LPp7UU8Qrt47JYNi6nPX8xjW97TKGKm1ouctg0QSpZe9qrnw==}
 
-  effect@3.14.6:
-    resolution: {integrity: sha512-/QMsBfMw2Gt10x3y2jVqDanLpKFrhc4L/3vqjrD36GWeuOcjN+1mvsvw9+RseAq9hmmkc3MFvLznfiEopqcPuw==}
+  effect@3.14.14:
+    resolution: {integrity: sha512-Dbt9MAZHqM1UAip41RrZnypzLa/hJJGHXIVS9MbgU0L+UoJTFXToWIwWmHY/OcaQVNlf/1YxpMrD3xtxoDP/qw==}
 
   eight-colors@1.3.1:
     resolution: {integrity: sha512-7nXPYDeKh6DgJDR/mpt2G7N/hCNSGwwoPVmoI3+4TEwOb07VFN1WMPG0DFf6nMEjrkgdj8Og7l7IaEEk3VE6Zg==}
@@ -3142,8 +3136,8 @@ packages:
     resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  hosted-git-info@8.0.2:
-    resolution: {integrity: sha512-sYKnA7eGln5ov8T8gnYlkSOxFJvywzEx9BueN6xo/GKO8PGiI6uK6xx+DIGe45T3bdVjLAQDQW1aicT8z8JwQg==}
+  hosted-git-info@8.1.0:
+    resolution: {integrity: sha512-Rw/B2DNQaPBICNXEm8balFz9a6WpZrkCGpcWFpy7nCj+NyhSdqXipmfvtmWt9xGfp0wZnBxB+iVpLmQMYt47Tw==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
   html-encoding-sniffer@4.0.0:
@@ -3204,8 +3198,8 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
-  ignore@7.0.3:
-    resolution: {integrity: sha512-bAH5jbK/F3T3Jls4I0SO1hmPR0dKU0a7+SY6n1yzRtG54FLO8d6w/nxLFX2Nb7dBu6cCWXPaAME6cYqFUMmuCA==}
+  ignore@7.0.4:
+    resolution: {integrity: sha512-gJzzk+PQNznz8ysRrC0aOkBNVRBDtE1n53IqyqEf3PXrYwomFs5q4pGMizBMJF+ykh03insJ27hB8gSrD2Hn8A==}
     engines: {node: '>= 4'}
 
   import-fresh@3.3.1:
@@ -4483,8 +4477,8 @@ packages:
     engines: {node: 20 || >=22}
     hasBin: true
 
-  syncpack@13.0.3:
-    resolution: {integrity: sha512-ZKrdDVmOUBWeaTVaxRnfwtqBJ5rMzMo7Lfdp04wtORwHEcvrq6M+NzCwS4PPIhTucD005wD8wumy90Ucz3lwXg==}
+  syncpack@13.0.4:
+    resolution: {integrity: sha512-kJ9VlRxNCsBD5pJAE29oXeBYbPLhEySQmK4HdpsLv81I6fcDDW17xeJqMwiU3H7/woAVsbgq25DJNS8BeiN5+w==}
     engines: {node: '>=18.18.0'}
     hasBin: true
 
@@ -6146,11 +6140,6 @@ snapshots:
   '@devoxa/integresql-client@2.1.1':
     dependencies:
       fast-glob: 3.3.2
-
-  '@effect/schema@0.75.5(effect@3.14.6)':
-    dependencies:
-      effect: 3.14.6
-      fast-check: 3.23.2
 
   '@emnapi/core@1.4.0':
     dependencies:
@@ -8095,7 +8084,7 @@ snapshots:
       jsbn: 0.1.1
       safer-buffer: 2.1.2
 
-  effect@3.14.6:
+  effect@3.14.14:
     dependencies:
       '@standard-schema/spec': 1.0.0
       fast-check: 3.23.2
@@ -8528,7 +8517,7 @@ snapshots:
     dependencies:
       '@sindresorhus/merge-streams': 2.3.0
       fast-glob: 3.3.3
-      ignore: 7.0.3
+      ignore: 7.0.4
       path-type: 6.0.0
       slash: 5.1.0
       unicorn-magic: 0.3.0
@@ -8563,7 +8552,7 @@ snapshots:
     dependencies:
       lru-cache: 10.4.3
 
-  hosted-git-info@8.0.2:
+  hosted-git-info@8.1.0:
     dependencies:
       lru-cache: 10.4.3
 
@@ -8628,7 +8617,7 @@ snapshots:
 
   ignore@5.3.2: {}
 
-  ignore@7.0.3: {}
+  ignore@7.0.4: {}
 
   import-fresh@3.3.1:
     dependencies:
@@ -9103,7 +9092,7 @@ snapshots:
 
   npm-package-arg@12.0.2:
     dependencies:
-      hosted-git-info: 8.0.2
+      hosted-git-info: 8.1.0
       proc-log: 5.0.0
       semver: 7.7.1
       validate-npm-package-name: 6.0.0
@@ -9838,14 +9827,13 @@ snapshots:
       rimraf: 6.0.1
       tshy: 3.0.2
 
-  syncpack@13.0.3(typescript@5.8.3):
+  syncpack@13.0.4(typescript@5.8.3):
     dependencies:
-      '@effect/schema': 0.75.5(effect@3.14.6)
       chalk: 5.4.1
       chalk-template: 1.1.0
       commander: 13.1.0
       cosmiconfig: 9.0.0(typescript@5.8.3)
-      effect: 3.14.6
+      effect: 3.14.14
       enquirer: 2.4.1
       fast-check: 3.23.2
       globby: 14.1.0
