@@ -64,7 +64,7 @@ importers:
         version: 5.1.0(@sinclair/typebox@0.34.33)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.28.30
+        version: 1.28.31
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.33
@@ -140,10 +140,10 @@ importers:
         version: 1.9.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-query':
         specifier: ^5.66.5
-        version: 5.75.0(react@19.1.0)
+        version: 5.75.1(react@19.1.0)
       '@tanstack/react-query-devtools':
         specifier: ^5.66.5
-        version: 5.75.0(@tanstack/react-query@5.75.0(react@19.1.0))(react@19.1.0)
+        version: 5.75.1(@tanstack/react-query@5.75.1(react@19.1.0))(react@19.1.0)
       '@tanstack/react-router':
         specifier: ^1.114.3
         version: 1.119.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -1571,24 +1571,24 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/core@0.2.13':
-    resolution: {integrity: sha512-d0MjF9hUh1rmK3nS1RkpVYLPO5oCl0pfS2mI6uzXmk7uspu2AE9YATbQ9j7SShM0UTOThKTtkYT8N2DJB3vE6g==}
+  '@scalar/core@0.2.14':
+    resolution: {integrity: sha512-w2oLqUVJt88ed2uHKFgg8UOFeyHDpi3QmSJqqc4CZPjAz/lKj34antHYMEG3A4Iom+06W31XQeqFO9zQ2eNsfA==}
     engines: {node: '>=18'}
 
-  '@scalar/fastify-api-reference@1.28.30':
-    resolution: {integrity: sha512-mQzRUpYmIxsT+vUup7mXsjIiGLhz5GLJpkNDMwOwVSYGHQpnt3GwE3MQ+lmqhgEdc6jRmXF/MGIA4O632Zz8sQ==}
+  '@scalar/fastify-api-reference@1.28.31':
+    resolution: {integrity: sha512-l8Qj65BHsChbXGDgv+ldH3HjBaXkubDYzrwSoYFtI8dQCdx33+dst8xtPfxnX3SCGlAhJ+2zw2pYz8gEPQaXtg==}
     engines: {node: '>=18'}
 
-  '@scalar/openapi-parser@0.10.16':
-    resolution: {integrity: sha512-UF+noQXEEQ52lm2Uum7mxkZdvsl8pMCIoTtN9jCTAfjutRwUPo7vfuic4JK+ChFLHDZyiYXYsbCwlP+aLk+4Xg==}
+  '@scalar/openapi-parser@0.10.17':
+    resolution: {integrity: sha512-SO+vw+kv8xEROJ527KpiT5ccAVQZuE6n8G4qTN6b72QVT0URHoLwr8uHQQnEGlyA0QhAx7En+lKD1Hy39xZ9oQ==}
     engines: {node: '>=18'}
 
-  '@scalar/openapi-types@0.2.1':
-    resolution: {integrity: sha512-UMxX54taQXnEWYEuesbH+pkjlXRVV1u/Wx6YbVeU3QoJdFGqT3Z7si9zsokoG6MXDcdi1LGny7A0KwownmPvUQ==}
+  '@scalar/openapi-types@0.2.2':
+    resolution: {integrity: sha512-fwWboUf3W5U4qWU7nj4jrs+KYilnfKyVp0d6LC1ejB2aROgWXIAscRtVaPLPaNLpTZOBsMC8XpiAPm3/SlU+mA==}
     engines: {node: '>=18'}
 
-  '@scalar/types@0.1.13':
-    resolution: {integrity: sha512-9PgGX4TSNWUcfuGwE4kHvKypc5VhLS450C0V9IuhIIVLrLsyiz8ZA3X/lxQEPoB1zlFbUBmceLD6Xh9c41P7oQ==}
+  '@scalar/types@0.1.14':
+    resolution: {integrity: sha512-N7qZ9qARJfi4Gl5MEsRfwPHFWs68qDXWQ+jGi05LGExDqErAJStc4PPkEmxt44uSO4+TVx4ADxWB6xNoGMG/Zg==}
     engines: {node: '>=18'}
 
   '@sec-ant/readable-stream@0.4.1':
@@ -1966,14 +1966,14 @@ packages:
       vinxi:
         optional: true
 
-  '@tanstack/react-query-devtools@5.75.0':
-    resolution: {integrity: sha512-ogTsCCONHPq8opyeU/NJZlus8+g36KnK+cybC1cs0Knr8iO/wAYgnciz+3DVNq38kRflBb0iJhHkUexp/7WfcQ==}
+  '@tanstack/react-query-devtools@5.75.1':
+    resolution: {integrity: sha512-6S71fJRBlb0adlG5z/OHRqZqtHoPYVCklf/KCnOoZ3vdx9O/K9BLvqeeDeMUkZ6Rak/IupbEbvBsFoUiMHwZiQ==}
     peerDependencies:
-      '@tanstack/react-query': ^5.75.0
+      '@tanstack/react-query': ^5.75.1
       react: ^18 || ^19
 
-  '@tanstack/react-query@5.75.0':
-    resolution: {integrity: sha512-H+TNgxmTbzH8qQ5MT5xsZEhQ8BG1tUYduDSfeAOzroVZgd/AEjg1rRYSP/9Tl9/hPobZ7iZzV401n77kStrbKw==}
+  '@tanstack/react-query@5.75.1':
+    resolution: {integrity: sha512-tN+gG+eXCHYm+VpmdXUP1rfE9LUrRzgYozTkBZtJV1/WFM3vwWNKQC8G6b2RKcs+2cPg+hdToZHZfjL3bF4yIQ==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -2117,9 +2117,6 @@ packages:
 
   '@types/react@19.1.2':
     resolution: {integrity: sha512-oxLPMytKchWGbnQM9O7D67uPa9paTNxO7jVoNMXgkkErULBPhPARCfkKL9ytcIJJRGjbsVwW4ugJzyFFvm/Tiw==}
-
-  '@unhead/schema@1.11.20':
-    resolution: {integrity: sha512-0zWykKAaJdm+/Y7yi/Yds20PrUK7XabLe9c3IRcjnwYmSWY6z0Cr19VIs3ozCj8P+GhR+/TI2mwtGlueCEYouA==}
 
   '@usebruno/cli@2.2.2':
     resolution: {integrity: sha512-kAKTnk+m2QIXrDGmdLPxFFLx4XLe3uhtyviLyDj7FRFutQLErkOvgmDn6AkiRk4SQfmfqGzVKJ86EtQYHv4yMg==}
@@ -3112,9 +3109,6 @@ packages:
 
   help-me@5.0.0:
     resolution: {integrity: sha512-7xgomUX6ADmcYzFik0HzAxh/73YlKR9bmFzf51CZwR+b6YtzU2m0u49hQCqV6SvlqIqsaxovfwdvbnsw3b/zpg==}
-
-  hookable@5.5.3:
-    resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
 
   hosted-git-info@7.0.2:
     resolution: {integrity: sha512-puUZAUKT5m8Zzvs72XWy3HtvVbTWljRE66cP60bxJzAqf2DgICo7lYTY2IHUmLnNpjYvw5bvmoHvPc0QO2a62w==}
@@ -4643,10 +4637,6 @@ packages:
     resolution: {integrity: sha512-uW9qzd66uyHYxwyVBYiwS4Oi0qZyUqwjU+Oevr6ZogYiXt99EOYtwvzMSLw1c3lYo2HzJsep/NB23iEVEgjG/w==}
     engines: {node: '>=16'}
 
-  type-fest@4.40.1:
-    resolution: {integrity: sha512-9YvLNnORDpI+vghLU/Nf+zSv0kL47KbVJ1o3sKgoTefl6i+zebxbiDQWoe/oWWqPhIgQdRZRT1KA9sCPL810SA==}
-    engines: {node: '>=16'}
-
   type-is@1.6.18:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
@@ -4980,9 +4970,6 @@ packages:
   yoctocolors@2.1.1:
     resolution: {integrity: sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==}
     engines: {node: '>=18'}
-
-  zhead@2.2.4:
-    resolution: {integrity: sha512-8F0OI5dpWIA5IGG5NHUg9staDwz/ZPxZtvGVf01j7vHqSyZ0raHY+78atOVxRqb73AotX22uV1pXt3gYSstGag==}
 
   zod@3.24.1:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
@@ -6777,20 +6764,20 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.39.0':
     optional: true
 
-  '@scalar/core@0.2.13':
+  '@scalar/core@0.2.14':
     dependencies:
-      '@scalar/types': 0.1.13
+      '@scalar/types': 0.1.14
 
-  '@scalar/fastify-api-reference@1.28.30':
+  '@scalar/fastify-api-reference@1.28.31':
     dependencies:
-      '@scalar/core': 0.2.13
-      '@scalar/openapi-parser': 0.10.16
-      '@scalar/openapi-types': 0.2.1
-      '@scalar/types': 0.1.13
+      '@scalar/core': 0.2.14
+      '@scalar/openapi-parser': 0.10.17
+      '@scalar/openapi-types': 0.2.2
+      '@scalar/types': 0.1.14
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
 
-  '@scalar/openapi-parser@0.10.16':
+  '@scalar/openapi-parser@0.10.17':
     dependencies:
       ajv: 8.17.1
       ajv-draft-04: 1.0.0(ajv@8.17.1)
@@ -6799,16 +6786,14 @@ snapshots:
       leven: 4.0.0
       yaml: 2.7.1
 
-  '@scalar/openapi-types@0.2.1':
+  '@scalar/openapi-types@0.2.2':
     dependencies:
-      zod: 3.24.3
+      zod: 3.24.1
 
-  '@scalar/types@0.1.13':
+  '@scalar/types@0.1.14':
     dependencies:
-      '@scalar/openapi-types': 0.2.1
-      '@unhead/schema': 1.11.20
+      '@scalar/openapi-types': 0.2.2
       nanoid: 5.1.5
-      type-fest: 4.40.1
       zod: 3.24.1
 
   '@sec-ant/readable-stream@0.4.1': {}
@@ -7225,13 +7210,13 @@ snapshots:
     transitivePeerDependencies:
       - react-dom
 
-  '@tanstack/react-query-devtools@5.75.0(@tanstack/react-query@5.75.0(react@19.1.0))(react@19.1.0)':
+  '@tanstack/react-query-devtools@5.75.1(@tanstack/react-query@5.75.1(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tanstack/query-devtools': 5.74.7
-      '@tanstack/react-query': 5.75.0(react@19.1.0)
+      '@tanstack/react-query': 5.75.1(react@19.1.0)
       react: 19.1.0
 
-  '@tanstack/react-query@5.75.0(react@19.1.0)':
+  '@tanstack/react-query@5.75.1(react@19.1.0)':
     dependencies:
       '@tanstack/query-core': 5.75.0
       react: 19.1.0
@@ -7400,11 +7385,6 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@unhead/schema@1.11.20':
-    dependencies:
-      hookable: 5.5.3
-      zhead: 2.2.4
-
   '@usebruno/cli@2.2.2':
     dependencies:
       '@aws-sdk/credential-providers': 3.750.0
@@ -7413,7 +7393,7 @@ snapshots:
       '@usebruno/lang': 0.22.0
       '@usebruno/requests': 0.1.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -7653,7 +7633,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -8514,8 +8494,6 @@ snapshots:
       function-bind: 1.1.2
 
   help-me@5.0.0: {}
-
-  hookable@5.5.3: {}
 
   hosted-git-info@7.0.2:
     dependencies:
@@ -9968,8 +9946,6 @@ snapshots:
 
   type-fest@4.39.1: {}
 
-  type-fest@4.40.1: {}
-
   type-is@1.6.18:
     dependencies:
       media-typer: 0.3.0
@@ -10245,8 +10221,6 @@ snapshots:
   yocto-queue@1.2.1: {}
 
   yoctocolors@2.1.1: {}
-
-  zhead@2.2.4: {}
 
   zod@3.24.1: {}
 
