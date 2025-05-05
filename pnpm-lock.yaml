@@ -179,7 +179,7 @@ importers:
         version: 1.0.7(tailwindcss@4.1.5)
       zod:
         specifier: ^3.24.2
-        version: 3.24.3
+        version: 3.24.4
     devDependencies:
       '@testing-library/dom':
         specifier: ^10.4.0
@@ -4974,8 +4974,8 @@ packages:
   zod@3.24.1:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
-  zod@3.24.3:
-    resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
+  zod@3.24.4:
+    resolution: {integrity: sha512-OdqJE9UDRPwWsrHjLN2F8bPxvwJBK22EHLWtanu0LSYr5YqzsaaW3RMgmjwr8Rypg5k+meEJdSPXJZXE/yqOMg==}
 
 snapshots:
 
@@ -7272,7 +7272,7 @@ snapshots:
       '@tanstack/virtual-file-routes': 1.115.0
       prettier: 3.5.3
       tsx: 4.19.4
-      zod: 3.24.3
+      zod: 3.24.4
     optionalDependencies:
       '@tanstack/react-router': 1.119.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
@@ -7294,7 +7294,7 @@ snapshots:
       babel-dead-code-elimination: 1.0.10
       chokidar: 3.6.0
       unplugin: 2.3.2
-      zod: 3.24.3
+      zod: 3.24.4
     optionalDependencies:
       '@tanstack/react-router': 1.119.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       vite: 6.3.4(@types/node@22.15.3)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@4.19.4)(yaml@2.7.1)
@@ -7393,7 +7393,7 @@ snapshots:
       '@usebruno/lang': 0.22.0
       '@usebruno/requests': 0.1.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -7633,7 +7633,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -10224,4 +10224,4 @@ snapshots:
 
   zod@3.24.1: {}
 
-  zod@3.24.3: {}
+  zod@3.24.4: {}
