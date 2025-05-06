@@ -66,7 +66,7 @@ services:
       - 'traefik.http.routers.frontend.rule=Host(`localhost`)'
       - 'traefik.http.services.frontend.loadbalancer.server.port=5173'
   proxy:
-    image: traefik:v3.3
+    image: traefik:v3.4
     command:
       - '--providers.docker=true'
       - '--providers.docker.exposedbydefault=false'
