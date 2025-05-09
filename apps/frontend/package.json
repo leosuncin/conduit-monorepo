@@ -47,6 +47,6 @@
     "unplugin-dbg": "0.1.0-rc.1",
     "vite": "^6.1.0",
     "vitest": "^3.0.5",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^5.0.0"
   }
 }
