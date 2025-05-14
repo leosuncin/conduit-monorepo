@@ -21,7 +21,7 @@
   "dependencies": {
     "@conduit/data-access-layer": "workspace:^",
     "@fastify/autoload": "^6.0.0",
-    "@fastify/awilix": "^7.0.0",
+    "@fastify/awilix": "^8.0.0",
     "@fastify/sensible": "^6.0.0",
     "@fastify/swagger": "^9.4.2",
     "@fastify/type-provider-typebox": "^5.1.0",

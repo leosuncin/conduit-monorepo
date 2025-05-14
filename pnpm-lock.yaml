@@ -51,8 +51,8 @@ importers:
         specifier: ^6.0.0
         version: 6.3.0
       '@fastify/awilix':
-        specifier: ^7.0.0
-        version: 7.0.0(awilix@12.0.5)(fastify@5.3.3)
+        specifier: ^8.0.0
+        version: 8.0.0(awilix@12.0.5)(fastify@5.3.3)
       '@fastify/sensible':
         specifier: ^6.0.0
         version: 6.0.3
@@ -966,8 +966,8 @@ packages:
   '@fastify/autoload@6.3.0':
     resolution: {integrity: sha512-VBYApgvqX5e+M2BAWKCxrYk9yTo8z127xsSzsSePQZlxt97tbQay74n//NDFK4ovFMgyhKSjoWtHTbdGw/RDvQ==}
 
-  '@fastify/awilix@7.0.0':
-    resolution: {integrity: sha512-wttTQKfZkrVn/8ReJMHo4RZ7GxIbx+ErwCZv4QpXa9+OxeVWUg4Wb2r+LcQigfmc2LBTDQ183iJ5aYnr5J0mEg==}
+  '@fastify/awilix@8.0.0':
+    resolution: {integrity: sha512-jzIP7nxH9/RbAX98XZPKAZKAzBi1Nj546qr+c6K6Ka0mr/rRX4pR5PUbZwqCiTn5XE0Dbinrz0aKMp1tD39ufg==}
     peerDependencies:
       awilix: '>=9.0.0'
       fastify: ^5.0.0
@@ -6215,7 +6215,7 @@ snapshots:
 
   '@fastify/autoload@6.3.0': {}
 
-  '@fastify/awilix@7.0.0(awilix@12.0.5)(fastify@5.3.3)':
+  '@fastify/awilix@8.0.0(awilix@12.0.5)(fastify@5.3.3)':
     dependencies:
       awilix: 12.0.5
       awilix-manager: 6.1.0(awilix@12.0.5)
