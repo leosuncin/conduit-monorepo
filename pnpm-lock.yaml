@@ -64,7 +64,7 @@ importers:
         version: 5.1.0(@sinclair/typebox@0.34.33)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.29.1
+        version: 1.29.2
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.33
@@ -140,10 +140,10 @@ importers:
         version: 1.11.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-query':
         specifier: ^5.66.5
-        version: 5.76.1(react@19.1.0)
+        version: 5.76.2(react@19.1.0)
       '@tanstack/react-query-devtools':
         specifier: ^5.66.5
-        version: 5.76.1(@tanstack/react-query@5.76.1(react@19.1.0))(react@19.1.0)
+        version: 5.76.2(@tanstack/react-query@5.76.2(react@19.1.0))(react@19.1.0)
       '@tanstack/react-router':
         specifier: ^1.114.3
         version: 1.120.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -1756,12 +1756,12 @@ packages:
     resolution: {integrity: sha512-k5TsihZcSdVnqE6JrRFdsvePDTe2RxjE+1wHdcnyFdIPief+ZdPn2fxCTlN0ozLoe08xlY3N9DHzDaneMpX58Q==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.29.1':
-    resolution: {integrity: sha512-DGTbxEH9TSWysj9j97BwrQui2SNabO2u3N8p5rsf0jmxUb6ZziWsFifOikpDGnY8CPoN0um10CMhjn3HxNBsVg==}
+  '@scalar/fastify-api-reference@1.29.2':
+    resolution: {integrity: sha512-wV1yBeVpYuRETK1y6wdzwe61nyWSJ1NdmNW3EPngKCX3m9KAacgPfX8SdZHXuPvHwdoZG1gC86R+penIQSL/xA==}
     engines: {node: '>=20'}
 
-  '@scalar/openapi-parser@0.11.0':
-    resolution: {integrity: sha512-tJnzoHcrCAkv/lL22UJQzKXWttmstZ28A39R8UDC1YlNWYQjSOBFu2VpvPDrPCVjoy7BM1WC/BoEW7EV0wf9NQ==}
+  '@scalar/openapi-parser@0.11.1':
+    resolution: {integrity: sha512-OO+LqmCX2X7M0wdhWLVQgF2FvUu1VpDIsdjOrcLnkZoAWyzQGlIsdaICztuwOahM/O5Rgib+B5/6vdV0EsE3gg==}
     engines: {node: '>=20'}
 
   '@scalar/openapi-types@0.3.1':
@@ -2129,8 +2129,8 @@ packages:
     resolution: {integrity: sha512-K7JJNrRVvyjAVnbXOH2XLRhFXDkeP54Kt2P4FR1Kl2KDGlIbkua5VqZQD2rot3qaDrpufyUa63nuLai1kOLTsQ==}
     engines: {node: '>=12'}
 
-  '@tanstack/query-core@5.76.0':
-    resolution: {integrity: sha512-FN375hb8ctzfNAlex5gHI6+WDXTNpe0nbxp/d2YJtnP+IBM6OUm7zcaoCW6T63BawGOYZBbKC0iPvr41TteNVg==}
+  '@tanstack/query-core@5.76.2':
+    resolution: {integrity: sha512-PFGwWh5ss9cJQ67l6bZ7hqXbisX2gy13G2jP+VGY1bgdbCfOMWh6UBVnN62QbFXro6CCoX9hYzTnZHr6Rz00YQ==}
 
   '@tanstack/query-devtools@5.76.0':
     resolution: {integrity: sha512-1p92nqOBPYVqVDU0Ua5nzHenC6EGZNrLnB2OZphYw8CNA1exuvI97FVgIKON7Uug3uQqvH/QY8suUKpQo8qHNQ==}
@@ -2147,14 +2147,14 @@ packages:
       vinxi:
         optional: true
 
-  '@tanstack/react-query-devtools@5.76.1':
-    resolution: {integrity: sha512-LFVWgk/VtXPkerNLfYIeuGHh0Aim/k9PFGA+JxLdRaUiroQ4j4eoEqBrUpQ1Pd/KXoG4AB9vVE/M6PUQ9vwxBQ==}
+  '@tanstack/react-query-devtools@5.76.2':
+    resolution: {integrity: sha512-XQqPM7ByqhitYtzzRXpFcPXY2FIMGY13atJoQnDInxX+ko7wOhAJg51QGzSxQwZ2JEy91taj0IaIUh3pOz2buw==}
     peerDependencies:
-      '@tanstack/react-query': ^5.76.1
+      '@tanstack/react-query': ^5.76.2
       react: ^18 || ^19
 
-  '@tanstack/react-query@5.76.1':
-    resolution: {integrity: sha512-YxdLZVGN4QkT5YT1HKZQWiIlcgauIXEIsMOTSjvyD5wLYK8YVvKZUPAysMqossFJJfDpJW3pFn7WNZuPOqq+fw==}
+  '@tanstack/react-query@5.76.2':
+    resolution: {integrity: sha512-rGkWberCrFdIxMdvSAJM/UOKeu0O/JVTbMmfhQoJpiU9Uq0EDx2EMCadnNuJWbXR4smDA2t7DY3NKkYFmDVS5A==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -7324,16 +7324,16 @@ snapshots:
     dependencies:
       '@scalar/types': 0.2.1
 
-  '@scalar/fastify-api-reference@1.29.1':
+  '@scalar/fastify-api-reference@1.29.2':
     dependencies:
       '@scalar/core': 0.3.1
-      '@scalar/openapi-parser': 0.11.0
+      '@scalar/openapi-parser': 0.11.1
       '@scalar/openapi-types': 0.3.1
       '@scalar/types': 0.2.1
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
 
-  '@scalar/openapi-parser@0.11.0':
+  '@scalar/openapi-parser@0.11.1':
     dependencies:
       ajv: 8.17.1
       ajv-draft-04: 1.0.0(ajv@8.17.1)
@@ -7758,7 +7758,7 @@ snapshots:
 
   '@tanstack/history@1.115.0': {}
 
-  '@tanstack/query-core@5.76.0': {}
+  '@tanstack/query-core@5.76.2': {}
 
   '@tanstack/query-devtools@5.76.0': {}
 
@@ -7772,15 +7772,15 @@ snapshots:
     transitivePeerDependencies:
       - react-dom
 
-  '@tanstack/react-query-devtools@5.76.1(@tanstack/react-query@5.76.1(react@19.1.0))(react@19.1.0)':
+  '@tanstack/react-query-devtools@5.76.2(@tanstack/react-query@5.76.2(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tanstack/query-devtools': 5.76.0
-      '@tanstack/react-query': 5.76.1(react@19.1.0)
+      '@tanstack/react-query': 5.76.2(react@19.1.0)
       react: 19.1.0
 
-  '@tanstack/react-query@5.76.1(react@19.1.0)':
+  '@tanstack/react-query@5.76.2(react@19.1.0)':
     dependencies:
-      '@tanstack/query-core': 5.76.0
+      '@tanstack/query-core': 5.76.2
       react: 19.1.0
 
   '@tanstack/react-router-devtools@1.120.6(@tanstack/react-router@1.120.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(@tanstack/router-core@1.120.5)(csstype@3.1.3)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(tiny-invariant@1.3.3)':
@@ -7960,7 +7960,7 @@ snapshots:
       '@usebruno/lang': 0.22.0
       '@usebruno/requests': 0.2.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8227,7 +8227,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
