@@ -137,7 +137,7 @@ importers:
         version: 4.1.11(vite@7.0.2(@types/node@24.0.10)(jiti@2.4.2)(lightningcss@1.30.1)(tsx@4.20.3)(yaml@2.8.0))
       '@tanstack/react-form':
         specifier: ^1.0.0
-        version: 1.13.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 1.13.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@tanstack/react-query':
         specifier: ^5.66.5
         version: 5.81.5(react@19.1.0)
@@ -2389,8 +2389,8 @@ packages:
   '@tanstack/query-devtools@5.81.2':
     resolution: {integrity: sha512-jCeJcDCwKfoyyBXjXe9+Lo8aTkavygHHsUHAlxQKKaDeyT0qyQNLKl7+UyqYH2dDF6UN/14873IPBHchcsU+Zg==}
 
-  '@tanstack/react-form@1.13.1':
-    resolution: {integrity: sha512-OvqpX0YtcdlfxyzEilQf2bXHpU7CFW575HqenDA6I/K6h0ib7BmP8iib9nQwtgBilAKCoQxcNbRJfaSbGOtjMA==}
+  '@tanstack/react-form@1.13.2':
+    resolution: {integrity: sha512-ykO/J7yBegs917OmHgIB8zIWWmEWKTxKwvvQUa5gWv8HqOWwGbw3+MCEiz7W1ONxZjY/rCgJpNd7Rh1qFlglsg==}
     peerDependencies:
       '@tanstack/react-start': ^1.112.0
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -8265,7 +8265,7 @@ snapshots:
 
   '@tanstack/query-devtools@5.81.2': {}
 
-  '@tanstack/react-form@1.13.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@tanstack/react-form@1.13.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@tanstack/form-core': 1.12.4
       '@tanstack/react-store': 0.7.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
