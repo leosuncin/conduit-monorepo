@@ -64,7 +64,7 @@ importers:
         version: 5.1.0(@sinclair/typebox@0.34.33)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.32.5
+        version: 1.32.6
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.33
@@ -2146,12 +2146,12 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/core@0.3.7':
-    resolution: {integrity: sha512-Qeq+DfOWxjVHFff9qx0w9gVK6FmgqJtpN3je5C3elKVXNPC/7rxG4BfAuced+SdnogaVzpb9rvvHPblMgsKrwQ==}
+  '@scalar/core@0.3.8':
+    resolution: {integrity: sha512-PsoOAviIbka+SqtSrBMEhK870Y47Zg32b/tqDf/nscWoOoPeBI054ppT0lcKv+IPlin/u/z8tem+i5uoOEEMEA==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.32.5':
-    resolution: {integrity: sha512-nUAQKHg5r/5ecSyZdoEh0dSHjbXTOE+VJIcTwAbS5qPePBKhZGAEAvu7NiQr9gh4sCN5tPYV3MJ89jqO5Uf7sg==}
+  '@scalar/fastify-api-reference@1.32.6':
+    resolution: {integrity: sha512-YrwRraeFQPRagQ+deKF7g+0+qt9xeiZfg9eOCtKQxhGwI51G8g1F1BVXAWSe6uiQmnqCcXs/GkBSCmLLs/j7Ug==}
     engines: {node: '>=20'}
 
   '@scalar/openapi-parser@0.18.1':
@@ -2162,8 +2162,8 @@ packages:
     resolution: {integrity: sha512-/iTUSJMMHVMIFJngeIjTVtU5lwIMNyEIm25e0XtDV0veW6zmIhLsaH2/nwpIgR1iXVyd/uWMyMrtQW329s3c4w==}
     engines: {node: '>=20'}
 
-  '@scalar/types@0.2.7':
-    resolution: {integrity: sha512-C4sbkqzCeQWYWaOUIQPdVm6g3FhUkcqpVorArApv7WfCEgVn1KLOOYELFMWwCHim2GnrZblVVUPubf0UXjUcLA==}
+  '@scalar/types@0.2.8':
+    resolution: {integrity: sha512-K2OibPVRxIx0KXBQvYmwySHStVbcLVGfPuHQnHALMKR9sHjpfZtl6cmBlDoKAwzkCAtjwhcnyvUTDBGf79pIEw==}
     engines: {node: '>=20'}
 
   '@sec-ant/readable-stream@0.4.1':
@@ -8020,13 +8020,13 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.44.2':
     optional: true
 
-  '@scalar/core@0.3.7':
+  '@scalar/core@0.3.8':
     dependencies:
-      '@scalar/types': 0.2.7
+      '@scalar/types': 0.2.8
 
-  '@scalar/fastify-api-reference@1.32.5':
+  '@scalar/fastify-api-reference@1.32.6':
     dependencies:
-      '@scalar/core': 0.3.7
+      '@scalar/core': 0.3.8
       '@scalar/openapi-parser': 0.18.1
       '@scalar/openapi-types': 0.3.5
       fastify-plugin: 4.5.1
@@ -8045,7 +8045,7 @@ snapshots:
     dependencies:
       zod: 3.24.1
 
-  '@scalar/types@0.2.7':
+  '@scalar/types@0.2.8':
     dependencies:
       '@scalar/openapi-types': 0.3.5
       nanoid: 5.1.5
@@ -8674,7 +8674,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8944,7 +8944,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
