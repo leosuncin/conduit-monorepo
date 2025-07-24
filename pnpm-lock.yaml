@@ -179,7 +179,7 @@ importers:
         version: 1.0.7(tailwindcss@4.1.11)
       zod:
         specifier: ^4.0.0
-        version: 4.0.6
+        version: 4.0.8
     devDependencies:
       '@testing-library/dom':
         specifier: ^10.4.0
@@ -5732,8 +5732,8 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.0.6:
-    resolution: {integrity: sha512-grO8UyVvh4j3nIcvZYCxgVvxJOKbWW8rZX2wlAL2qPG/Pe/R66/9MBeptqxPgpT7CBtGnJiwp6q76pq+hCAw2w==}
+  zod@4.0.8:
+    resolution: {integrity: sha512-+MSh9cZU9r3QKlHqrgHMTSr3QwMGv4PLfR0M4N/sYWV5/x67HgXEhIGObdBkpnX8G78pTgWnIrBL2lZcNJOtfg==}
 
 snapshots:
 
@@ -8541,7 +8541,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8811,7 +8811,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -11647,4 +11647,4 @@ snapshots:
 
   zod@3.25.76: {}
 
-  zod@4.0.6: {}
+  zod@4.0.8: {}
