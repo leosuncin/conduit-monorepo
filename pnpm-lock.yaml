@@ -140,10 +140,10 @@ importers:
         version: 1.15.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@tanstack/react-query':
         specifier: ^5.66.5
-        version: 5.83.0(react@19.1.1)
+        version: 5.83.1(react@19.1.1)
       '@tanstack/react-query-devtools':
         specifier: ^5.66.5
-        version: 5.83.0(@tanstack/react-query@5.83.0(react@19.1.1))(react@19.1.1)
+        version: 5.83.1(@tanstack/react-query@5.83.1(react@19.1.1))(react@19.1.1)
       '@tanstack/react-router':
         specifier: ^1.114.3
         version: 1.130.9(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -2476,11 +2476,11 @@ packages:
     resolution: {integrity: sha512-I3YTkbe4RZQN54Qw4+IUhOjqG2DdbG2+EBWuQfew4MEk0eddLYAQVa50BZVww4/D2eh5I9vEk2Fd1Y0Wty7pug==}
     engines: {node: '>=12'}
 
-  '@tanstack/query-core@5.83.0':
-    resolution: {integrity: sha512-0M8dA+amXUkyz5cVUm/B+zSk3xkQAcuXuz5/Q/LveT4ots2rBpPTZOzd7yJa2Utsf8D2Upl5KyjhHRY+9lB/XA==}
+  '@tanstack/query-core@5.83.1':
+    resolution: {integrity: sha512-OG69LQgT7jSp+5pPuCfzltq/+7l2xoweggjme9vlbCPa/d7D7zaqv5vN/S82SzSYZ4EDLTxNO1PWrv49RAS64Q==}
 
-  '@tanstack/query-devtools@5.81.2':
-    resolution: {integrity: sha512-jCeJcDCwKfoyyBXjXe9+Lo8aTkavygHHsUHAlxQKKaDeyT0qyQNLKl7+UyqYH2dDF6UN/14873IPBHchcsU+Zg==}
+  '@tanstack/query-devtools@5.83.1':
+    resolution: {integrity: sha512-KOQ3SMLnHHrnwwAHflK50QT8zEHg3rjPZx6cd+G7yZl4vU9moctTQU1A3zvHYEXabzKu5G31bcll6qhNCya9+w==}
 
   '@tanstack/react-form@1.15.1':
     resolution: {integrity: sha512-t/PAcckw8hwgZCpVKB8NTi0tP5I6ANJhYRsc4nH5TiW1VWPvPpeyNIHvbLGTcXLxnYB9aId2tfDqFWwGBFMBuA==}
@@ -2494,14 +2494,14 @@ packages:
       vinxi:
         optional: true
 
-  '@tanstack/react-query-devtools@5.83.0':
-    resolution: {integrity: sha512-yfp8Uqd3I1jgx8gl0lxbSSESu5y4MO2ThOPBnGNTYs0P+ZFu+E9g5IdOngyUGuo6Uz6Qa7p9TLdZEX3ntik2fQ==}
+  '@tanstack/react-query-devtools@5.83.1':
+    resolution: {integrity: sha512-t5zcIHoSbT4ducv5YBYULgol6mt1gflHBLbN9oMa/VvPxVtQBY7nyDWFzOYycGXLlH3RrSp7w+oFBTB2GS04Ug==}
     peerDependencies:
-      '@tanstack/react-query': ^5.83.0
+      '@tanstack/react-query': ^5.83.1
       react: ^18 || ^19
 
-  '@tanstack/react-query@5.83.0':
-    resolution: {integrity: sha512-/XGYhZ3foc5H0VM2jLSD/NyBRIOK4q9kfeml4+0x2DlL6xVuAcVEW+hTlTapAmejObg0i3eNqhkr2dT+eciwoQ==}
+  '@tanstack/react-query@5.83.1':
+    resolution: {integrity: sha512-JHZ3xox3p0sqCgM7ykBRtMWSLmWgjR7I+oJMAZ1beK/O/gfShI2b/PdovL2/ivVLUZklXgBenQu4ZjPhIM+yrw==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -8331,9 +8331,9 @@ snapshots:
 
   '@tanstack/history@1.129.7': {}
 
-  '@tanstack/query-core@5.83.0': {}
+  '@tanstack/query-core@5.83.1': {}
 
-  '@tanstack/query-devtools@5.81.2': {}
+  '@tanstack/query-devtools@5.83.1': {}
 
   '@tanstack/react-form@1.15.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
@@ -8345,15 +8345,15 @@ snapshots:
     transitivePeerDependencies:
       - react-dom
 
-  '@tanstack/react-query-devtools@5.83.0(@tanstack/react-query@5.83.0(react@19.1.1))(react@19.1.1)':
+  '@tanstack/react-query-devtools@5.83.1(@tanstack/react-query@5.83.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@tanstack/query-devtools': 5.81.2
-      '@tanstack/react-query': 5.83.0(react@19.1.1)
+      '@tanstack/query-devtools': 5.83.1
+      '@tanstack/react-query': 5.83.1(react@19.1.1)
       react: 19.1.1
 
-  '@tanstack/react-query@5.83.0(react@19.1.1)':
+  '@tanstack/react-query@5.83.1(react@19.1.1)':
     dependencies:
-      '@tanstack/query-core': 5.83.0
+      '@tanstack/query-core': 5.83.1
       react: 19.1.1
 
   '@tanstack/react-router-devtools@1.130.9(@tanstack/react-router@1.130.9(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(@tanstack/router-core@1.130.9)(csstype@3.1.3)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(solid-js@1.9.5)(tiny-invariant@1.3.3)':
@@ -8548,7 +8548,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8818,7 +8818,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
