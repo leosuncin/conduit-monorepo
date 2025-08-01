@@ -213,7 +213,7 @@ importers:
         version: 3.1.4(@types/node@24.1.0)(jiti@2.4.2)(jsdom@26.1.0)(lightningcss@1.30.1)(tsx@4.20.3)(yaml@2.8.0)
       web-vitals:
         specifier: ^5.0.0
-        version: 5.0.2
+        version: 5.1.0
 
   packages/data-access-layer:
     dependencies:
@@ -5597,8 +5597,8 @@ packages:
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
 
-  web-vitals@5.0.2:
-    resolution: {integrity: sha512-nhl+fujoz9Io6MdDSyGSiiUSR1DLMvD3Mde1sNaRKrNwsEFYQICripmEIyUvE2DPKDkW1BbHa4saEDo1U/2D/Q==}
+  web-vitals@5.1.0:
+    resolution: {integrity: sha512-ArI3kx5jI0atlTtmV0fWU3fjpLmq/nD3Zr1iFFlJLaqa5wLBkUSzINwBPySCX/8jRyjlmy1Volw1kz1g9XE4Jg==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -11539,7 +11539,7 @@ snapshots:
     dependencies:
       makeerror: 1.0.12
 
-  web-vitals@5.0.2: {}
+  web-vitals@5.1.0: {}
 
   webidl-conversions@3.0.1: {}
 
