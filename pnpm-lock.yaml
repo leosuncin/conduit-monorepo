@@ -52,7 +52,7 @@ importers:
         version: 6.3.1
       '@fastify/awilix':
         specifier: ^8.0.0
-        version: 8.0.0(awilix@12.0.5)(fastify@5.5.0)
+        version: 8.0.0(awilix@12.0.5)(fastify@5.6.0)
       '@fastify/sensible':
         specifier: ^6.0.0
         version: 6.0.3
@@ -73,7 +73,7 @@ importers:
         version: 12.0.5
       fastify:
         specifier: ^5.0.0
-        version: 5.5.0
+        version: 5.6.0
       fastify-cli:
         specifier: ^7.4.0
         version: 7.4.0
@@ -3230,6 +3230,9 @@ packages:
   fast-uri@3.0.6:
     resolution: {integrity: sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==}
 
+  fast-uri@3.1.0:
+    resolution: {integrity: sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==}
+
   fast-xml-parser@4.4.1:
     resolution: {integrity: sha512-xkjOecfnKGkSsOwtZ5Pz7Us/T6mrbPQrq0nh+aCO5V9nk5NLWmasAHumTKjiPJPWANe+kAZ84Jc8ooJkzZ88Sw==}
     hasBin: true
@@ -3251,8 +3254,8 @@ packages:
     resolution: {integrity: sha512-TxFM9+MUUM2Ub6chZbP5sPNUFaPWA86kHU0VRd4o9OP6PBP92cj9c4/IEsnLoVHcLgrgXf2GUXWUzkJAO9iKFQ==}
     engines: {node: '>=20.0.0'}
 
-  fastify@5.5.0:
-    resolution: {integrity: sha512-ZWSWlzj3K/DcULCnCjEiC2zn2FBPdlZsSA/pnPa/dbUfLvxkD/Nqmb0XXMXLrWkeM4uQPUvjdJpwtXmTfriXqw==}
+  fastify@5.6.0:
+    resolution: {integrity: sha512-9j2r9TnwNsfGiCKGYT0Voqy244qwcoYM9qvNi/i+F8sNNWDnqUEVuGYNc9GyjldhXmMlJmVPS6gI1LdvjYGRJw==}
 
   fastq@1.19.1:
     resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==}
@@ -4333,8 +4336,8 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@9.8.0:
-    resolution: {integrity: sha512-L5+rV1wL7vGAcxXP7sPpN5lrJ07Piruka6ArXr7EWBXxdVWjJshGVX8suFsiusJVcGKDGUFfbgbnKdg+VAC+0g==}
+  pino@9.9.4:
+    resolution: {integrity: sha512-d1XorUQ7sSKqVcYdXuEYs2h1LKxejSorMEJ76XoZ0pPDf8VzJMe7GlPXpMBZeQ9gE4ZPIp5uGD+5Nw7scxiigg==}
     hasBin: true
 
   pirates@4.0.7:
@@ -6919,15 +6922,15 @@ snapshots:
     dependencies:
       ajv: 8.17.1
       ajv-formats: 3.0.1(ajv@8.17.1)
-      fast-uri: 3.0.6
+      fast-uri: 3.1.0
 
   '@fastify/autoload@6.3.1': {}
 
-  '@fastify/awilix@8.0.0(awilix@12.0.5)(fastify@5.5.0)':
+  '@fastify/awilix@8.0.0(awilix@12.0.5)(fastify@5.6.0)':
     dependencies:
       awilix: 12.0.5
       awilix-manager: 6.1.0(awilix@12.0.5)
-      fastify: 5.5.0
+      fastify: 5.6.0
       fastify-plugin: 5.0.1
 
   '@fastify/deepmerge@2.0.2': {}
@@ -9144,7 +9147,7 @@ snapshots:
       '@fastify/merge-json-schemas': 0.2.1
       ajv: 8.17.1
       ajv-formats: 3.0.1(ajv@8.17.1)
-      fast-uri: 3.0.6
+      fast-uri: 3.1.0
       json-schema-ref-resolver: 2.0.1
       rfdc: 1.4.1
 
@@ -9158,6 +9161,8 @@ snapshots:
 
   fast-uri@3.0.6: {}
 
+  fast-uri@3.1.0: {}
+
   fast-xml-parser@4.4.1:
     dependencies:
       strnum: 1.1.2
@@ -9170,7 +9175,7 @@ snapshots:
       close-with-grace: 2.2.0
       commist: 3.2.0
       dotenv: 16.4.7
-      fastify: 5.5.0
+      fastify: 5.6.0
       fastify-plugin: 5.0.1
       generify: 4.2.0
       help-me: 5.0.0
@@ -9192,7 +9197,7 @@ snapshots:
 
   fastify-tsconfig@3.0.0: {}
 
-  fastify@5.5.0:
+  fastify@5.6.0:
     dependencies:
       '@fastify/ajv-compiler': 4.0.2
       '@fastify/error': 4.2.0
@@ -9203,7 +9208,7 @@ snapshots:
       fast-json-stringify: 6.0.1
       find-my-way: 9.3.0
       light-my-request: 6.6.0
-      pino: 9.8.0
+      pino: 9.9.4
       process-warning: 5.0.0
       rfdc: 1.4.1
       secure-json-parse: 4.0.0
@@ -10229,7 +10234,7 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@9.8.0:
+  pino@9.9.4:
     dependencies:
       atomic-sleep: 1.0.0
       fast-redact: 3.5.0
