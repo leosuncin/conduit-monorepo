@@ -64,7 +64,7 @@ importers:
         version: 5.2.0(@sinclair/typebox@0.34.41)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.35.1(typescript@5.9.2)
+        version: 1.35.2(typescript@5.9.2)
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.41
@@ -1847,8 +1847,8 @@ packages:
     resolution: {integrity: sha512-gZLKu6yzc9Md8X29OX7hN/Cgl95ReHK+t/HXbaT3O8hsbCc9JyhEZiKFpTfCH9vcgyYQ91fcq9w8tT4BVpFJUw==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.35.1':
-    resolution: {integrity: sha512-JdMcI9w0/1y0jViL+0/EJ1H21WvI52xNrJn9xvPw4zHUrvjVhZs2p70vmXALUuo+WT7zOFDJGrGc/FHW4atjaQ==}
+  '@scalar/fastify-api-reference@1.35.2':
+    resolution: {integrity: sha512-GtVjDsut6B4dZ8DPJllojShqkq1hG6gwS9KcKRdcdN0WlEUw4Oq9/RamRyUiVIt9s24GlWm4ERHgEQHzqwRn3g==}
     engines: {node: '>=20'}
 
   '@scalar/helpers@0.0.9':
@@ -1859,8 +1859,8 @@ packages:
     resolution: {integrity: sha512-P4xfYSQB+rcJKDfxNC+T9cms4VNp9aMW0wrVcSKEUJLap/GDUFFUbMoVZMYLUcCehMta9KGM1SsN37f9FIBNow==}
     engines: {node: '>=20'}
 
-  '@scalar/openapi-parser@0.20.2':
-    resolution: {integrity: sha512-CxrEfvfGHHxyuOTdH+PLGPQAJWfLKU3NCNslPz9iHpppxVyK5S7MPB1pLZYIFH+pcohiPx8LmirUpspolKHBwQ==}
+  '@scalar/openapi-parser@0.20.3':
+    resolution: {integrity: sha512-vjnJ9EyUza4GnYR+YK9/GLrYVWbuyH3U4NZWa51kdOg/34gh5H9Jc2Cphmrz/Unxe8EmzwqaElbeM+7qKADgXQ==}
     engines: {node: '>=20'}
 
   '@scalar/openapi-types@0.3.7':
@@ -7646,10 +7646,10 @@ snapshots:
     dependencies:
       '@scalar/types': 0.2.15
 
-  '@scalar/fastify-api-reference@1.35.1(typescript@5.9.2)':
+  '@scalar/fastify-api-reference@1.35.2(typescript@5.9.2)':
     dependencies:
       '@scalar/core': 0.3.16
-      '@scalar/openapi-parser': 0.20.2(typescript@5.9.2)
+      '@scalar/openapi-parser': 0.20.3(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
@@ -7666,7 +7666,7 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@scalar/openapi-parser@0.20.2(typescript@5.9.2)':
+  '@scalar/openapi-parser@0.20.3(typescript@5.9.2)':
     dependencies:
       '@scalar/json-magic': 0.4.0(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
