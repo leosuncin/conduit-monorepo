@@ -64,7 +64,7 @@ importers:
         version: 5.2.0(@sinclair/typebox@0.34.41)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.35.0(typescript@5.9.2)
+        version: 1.35.1(typescript@5.9.2)
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.41
@@ -1847,12 +1847,12 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/core@0.3.15':
-    resolution: {integrity: sha512-8wAb2MHTgXIOyotjS1sD0lU9kbJjAencIVj1mFpjctyU+YzJNEAE2RDB2HM2T305gnHjHQ5oUi6MWOsIrjUiMw==}
+  '@scalar/core@0.3.16':
+    resolution: {integrity: sha512-gZLKu6yzc9Md8X29OX7hN/Cgl95ReHK+t/HXbaT3O8hsbCc9JyhEZiKFpTfCH9vcgyYQ91fcq9w8tT4BVpFJUw==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.35.0':
-    resolution: {integrity: sha512-xn0KtUydXmrzS2FDKx3RpYA3YYDv8lj+e8QnPk7jmLq0dL5XmTh2SHaAWdN+5mSolHLU8+7d+RreMR0TPl2SWQ==}
+  '@scalar/fastify-api-reference@1.35.1':
+    resolution: {integrity: sha512-JdMcI9w0/1y0jViL+0/EJ1H21WvI52xNrJn9xvPw4zHUrvjVhZs2p70vmXALUuo+WT7zOFDJGrGc/FHW4atjaQ==}
     engines: {node: '>=20'}
 
   '@scalar/helpers@0.0.9':
@@ -1871,8 +1871,8 @@ packages:
     resolution: {integrity: sha512-QHSvHBVDze3+dUwAhIGq6l1iOev4jdoqdBK7QpfeN1Q4h+6qpVEw3EEqBiH0AXUSh/iWwObBv4uMgfIx0aNZ5g==}
     engines: {node: '>=20'}
 
-  '@scalar/types@0.2.14':
-    resolution: {integrity: sha512-KIPcTtOVlzEVNUohBJ3lBQJbgDBDp6ZbmLNU8Qn1wPfG/16xjT48WtOUyvObFk5N6x/ToSNBnD3ecHtQVGAd+w==}
+  '@scalar/types@0.2.15':
+    resolution: {integrity: sha512-x2aCNmkDqr3VXUHjw7wPXK9KZwHbGGMs4NuxJIzy9MbAxUS9li8HXGG0K82Q5fDm47SAM+68z0/tnWkJpu+kzg==}
     engines: {node: '>=20'}
 
   '@sec-ant/readable-stream@0.4.1':
@@ -7636,13 +7636,13 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.50.1':
     optional: true
 
-  '@scalar/core@0.3.15':
+  '@scalar/core@0.3.16':
     dependencies:
-      '@scalar/types': 0.2.14
+      '@scalar/types': 0.2.15
 
-  '@scalar/fastify-api-reference@1.35.0(typescript@5.9.2)':
+  '@scalar/fastify-api-reference@1.35.1(typescript@5.9.2)':
     dependencies:
-      '@scalar/core': 0.3.15
+      '@scalar/core': 0.3.16
       '@scalar/openapi-parser': 0.20.2(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
       fastify-plugin: 4.5.1
@@ -7677,7 +7677,7 @@ snapshots:
     dependencies:
       zod: 3.24.1
 
-  '@scalar/types@0.2.14':
+  '@scalar/types@0.2.15':
     dependencies:
       '@scalar/openapi-types': 0.3.7
       nanoid: 5.1.5
