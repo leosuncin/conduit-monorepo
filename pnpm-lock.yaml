@@ -101,7 +101,7 @@ importers:
         version: 22.18.3
       c8:
         specifier: ^10.1.2
-        version: 10.1.3(monocart-coverage-reports@2.12.8)
+        version: 10.1.3(monocart-coverage-reports@2.12.9)
       execa:
         specifier: ^9.5.2
         version: 9.6.0
@@ -241,13 +241,13 @@ importers:
         version: 12.0.5
       c8:
         specifier: ^10.1.2
-        version: 10.1.3(monocart-coverage-reports@2.12.8)
+        version: 10.1.3(monocart-coverage-reports@2.12.9)
       execa:
         specifier: ^9.5.2
         version: 9.6.0
       monocart-coverage-reports:
         specifier: ^2.12.3
-        version: 2.12.8
+        version: 2.12.9
       postgres:
         specifier: ^3.4.5
         version: 3.4.7
@@ -2888,6 +2888,10 @@ packages:
     resolution: {integrity: sha512-2uM9rYjPvyq39NwLRqaiLtWHyDC1FvryJDa2ATTVims5YAS4PupsEQsDvP14FqhFr0P49CYDugi59xaxJlTXRA==}
     engines: {node: '>=20'}
 
+  commander@14.0.1:
+    resolution: {integrity: sha512-2JkV3gUZUVrbNA+1sjBOYLsMZ5cEEl8GTFP2a4AVz5hvasAMCQ1D2l2le/cX+pV4N6ZU17zjUahLpIXRrnWL8A==}
+    engines: {node: '>=20'}
+
   commist@3.2.0:
     resolution: {integrity: sha512-4PIMoPniho+LqXmpS5d3NuGYncG6XWlkBSVGiWycL22dd42OYdUGil2CWuzklaJoNxyxUSpO4MKIBU94viWNAw==}
 
@@ -4091,8 +4095,8 @@ packages:
   moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
 
-  monocart-coverage-reports@2.12.8:
-    resolution: {integrity: sha512-NYOjiuuGPth91E9o5fnUsLs7kEqEXeyYAsNdv8yF0/J/dyNvYQiP+LhSCbQKuVVP/9/HBuq0aoBzDPo5SL6nuA==}
+  monocart-coverage-reports@2.12.9:
+    resolution: {integrity: sha512-vtFqbC3Egl4nVa1FSIrQvMPO6HZtb9lo+3IW7/crdvrLNW2IH8lUsxaK0TsKNmMO2mhFWwqQywLV2CZelqPgwA==}
     hasBin: true
 
   monocart-locator@1.0.2:
@@ -8320,7 +8324,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8646,7 +8650,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -8719,7 +8723,7 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  c8@10.1.3(monocart-coverage-reports@2.12.8):
+  c8@10.1.3(monocart-coverage-reports@2.12.9):
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@istanbuljs/schema': 0.1.3
@@ -8733,7 +8737,7 @@ snapshots:
       yargs: 17.7.2
       yargs-parser: 21.1.1
     optionalDependencies:
-      monocart-coverage-reports: 2.12.8
+      monocart-coverage-reports: 2.12.9
 
   cac@6.7.14: {}
 
@@ -8897,6 +8901,8 @@ snapshots:
   commander@13.1.0: {}
 
   commander@14.0.0: {}
+
+  commander@14.0.1: {}
 
   commist@3.2.0: {}
 
@@ -10067,12 +10073,12 @@ snapshots:
 
   moment@2.30.1: {}
 
-  monocart-coverage-reports@2.12.8:
+  monocart-coverage-reports@2.12.9:
     dependencies:
       acorn: 8.15.0
       acorn-loose: 8.5.2
       acorn-walk: 8.3.4
-      commander: 14.0.0
+      commander: 14.0.1
       console-grid: 2.2.3
       eight-colors: 1.3.1
       foreground-child: 3.3.1
