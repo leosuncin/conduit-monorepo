@@ -64,7 +64,7 @@ importers:
         version: 5.2.0(@sinclair/typebox@0.34.41)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.35.5(typescript@5.9.2)
+        version: 1.35.6(typescript@5.9.2)
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.41
@@ -1862,20 +1862,20 @@ packages:
     resolution: {integrity: sha512-gZLKu6yzc9Md8X29OX7hN/Cgl95ReHK+t/HXbaT3O8hsbCc9JyhEZiKFpTfCH9vcgyYQ91fcq9w8tT4BVpFJUw==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.35.5':
-    resolution: {integrity: sha512-wjj594HGYZKg2kOhx2faRK1G1dA07j4tUHPdUpNLwIWXs601QLNkRBFq2nkiYUVZqrOsN7Z/YmKflUKDIW9j5g==}
+  '@scalar/fastify-api-reference@1.35.6':
+    resolution: {integrity: sha512-UtxWw3LjDMV3PApuDZ+pyOXZCTHDDjiWznXqa5yx4fgAVZ4dGnB2DRUH1hS/MX4z61xEJRAlhJziB6goZy1DEw==}
     engines: {node: '>=20'}
 
-  '@scalar/helpers@0.0.10':
-    resolution: {integrity: sha512-VmVgIAkSLBmE5fHgkPiQ0EUZqjsYQNSd/Wd5PwsInYgBvTAxojSeiM58ZVZzMsRRfrCwboCkGn9uNEkbZQX8fg==}
+  '@scalar/helpers@0.0.11':
+    resolution: {integrity: sha512-EoAufzG0crQloYJxbCV8F+Y5vPyeeh1HMngGlXPT6oGSJPi6DiNA9wztqK3lvaBmSkJMh4VKIbejVqAXx1a0tg==}
     engines: {node: '>=20'}
 
-  '@scalar/json-magic@0.4.2':
-    resolution: {integrity: sha512-a6Jyt4Fz7wt2p5Oy8+eOs19zSUNqm3wA/4EjVkJ498PBS3LQB7qa+fW38Fst+LwJCjRYDRTA1HB0kLqMNQ92LQ==}
+  '@scalar/json-magic@0.4.3':
+    resolution: {integrity: sha512-ve2prNKXWO+4O/fqzNhxxuXc0e3bgjVw4zmbYyPsc14gkHsbdDxvag/vKCVMmfKdBsiPVTW4ETiRu5saEHNBfA==}
     engines: {node: '>=20'}
 
-  '@scalar/openapi-parser@0.20.5':
-    resolution: {integrity: sha512-f8suNeHTtvU+GYRuYJ8QFTXmYOWmg8U/md3DXX4BrpXp+V1w+MCPMp984LmyGwnP3IavrgKi7FtlChSJXPFRqg==}
+  '@scalar/openapi-parser@0.20.6':
+    resolution: {integrity: sha512-TS2E9PVZRxls4gNwTAaEgyCJbW/5vm6+ntf8FwGe/osWYZTiKUZ5iEPW/NtrgfiNiylUPqlo0hGa/K//zeJeqw==}
     engines: {node: '>=20'}
 
   '@scalar/openapi-types@0.3.7':
@@ -7696,29 +7696,29 @@ snapshots:
     dependencies:
       '@scalar/types': 0.2.15
 
-  '@scalar/fastify-api-reference@1.35.5(typescript@5.9.2)':
+  '@scalar/fastify-api-reference@1.35.6(typescript@5.9.2)':
     dependencies:
       '@scalar/core': 0.3.16
-      '@scalar/openapi-parser': 0.20.5(typescript@5.9.2)
+      '@scalar/openapi-parser': 0.20.6(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
     transitivePeerDependencies:
       - typescript
 
-  '@scalar/helpers@0.0.10': {}
+  '@scalar/helpers@0.0.11': {}
 
-  '@scalar/json-magic@0.4.2(typescript@5.9.2)':
+  '@scalar/json-magic@0.4.3(typescript@5.9.2)':
     dependencies:
-      '@scalar/helpers': 0.0.10
+      '@scalar/helpers': 0.0.11
       vue: 3.5.21(typescript@5.9.2)
       yaml: 2.8.0
     transitivePeerDependencies:
       - typescript
 
-  '@scalar/openapi-parser@0.20.5(typescript@5.9.2)':
+  '@scalar/openapi-parser@0.20.6(typescript@5.9.2)':
     dependencies:
-      '@scalar/json-magic': 0.4.2(typescript@5.9.2)
+      '@scalar/json-magic': 0.4.3(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
       ajv: 8.17.1
       ajv-draft-04: 1.0.0(ajv@8.17.1)
