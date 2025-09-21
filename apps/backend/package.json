@@ -24,7 +24,7 @@
     "@fastify/awilix": "^8.0.0",
     "@fastify/sensible": "^6.0.0",
     "@fastify/swagger": "^9.4.2",
-    "@fastify/type-provider-typebox": "^5.1.0",
+    "@fastify/type-provider-typebox": "^6.0.0",
     "@scalar/fastify-api-reference": "^1.28.14",
     "@sinclair/typebox": "^0.34.33",
     "awilix": "^12.0.5",
