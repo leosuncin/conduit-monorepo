@@ -64,7 +64,7 @@ importers:
         version: 6.0.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.35.7(typescript@5.9.2)
+        version: 1.36.0(typescript@5.9.2)
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.41
@@ -1995,20 +1995,20 @@ packages:
     resolution: {integrity: sha512-G6tP+2oorFA90szI8DGiEQ23SmobiuhN93GfTJNpFMhz/kdEtC4lcYawAxL1tWkZhlK/QYRcaCZcVzmpTUgBCA==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.35.7':
-    resolution: {integrity: sha512-LURTGVeImy4AtvFBiwvu6jmJaZ9vFDoZa7+RFLF9Eop5ONg+6H4U8eWgzYjNG+4+3ab7liV3BTa83dNSdmVWmg==}
+  '@scalar/fastify-api-reference@1.36.0':
+    resolution: {integrity: sha512-fPaR39vf4SttLXdNwrKyoaqSgPoy4vo8XBz80fbZcFrXICpzPiV7zGnZAOpStulzTRwi7Ltv2VhRFaGXhcTWLw==}
     engines: {node: '>=20'}
 
   '@scalar/helpers@0.0.11':
     resolution: {integrity: sha512-EoAufzG0crQloYJxbCV8F+Y5vPyeeh1HMngGlXPT6oGSJPi6DiNA9wztqK3lvaBmSkJMh4VKIbejVqAXx1a0tg==}
     engines: {node: '>=20'}
 
-  '@scalar/json-magic@0.5.0':
-    resolution: {integrity: sha512-JNxwGYl0w+gD9Ax9ISLMVvd6CXIEqJKmQWqUdTq5JyOAQ8Tq3DeiJFjfjKf83BxfFOWxJSBx8oXbED9Tushgwg==}
+  '@scalar/json-magic@0.5.1':
+    resolution: {integrity: sha512-O9EzRWSGVz3BX/dPeDEt3A8wjHl+2yeBlDAjexRXhETjhVxMlWQ/jUnYPqHnEXv0A4tGJ1WWem1mnVi1ziV+6g==}
     engines: {node: '>=20'}
 
-  '@scalar/openapi-parser@0.21.0':
-    resolution: {integrity: sha512-YdQtSIQ+BBotBZgJeC9J/Vza6yWuJILKN4A3UXWSY2/IjGTijxk2PEF1wh92TKKBhZxoLXVfW6Q+T0uymclrkQ==}
+  '@scalar/openapi-parser@0.21.1':
+    resolution: {integrity: sha512-AtI2gcw/qqzhZenQHSeamN1DiWxaSy51sG1cApUO7G/QPDmEVWnXLdh62H3kzjoh5CynJBoOY6NeBdLeuFJmcA==}
     engines: {node: '>=20'}
 
   '@scalar/openapi-types@0.3.7':
@@ -7866,10 +7866,10 @@ snapshots:
     dependencies:
       '@scalar/types': 0.2.16
 
-  '@scalar/fastify-api-reference@1.35.7(typescript@5.9.2)':
+  '@scalar/fastify-api-reference@1.36.0(typescript@5.9.2)':
     dependencies:
       '@scalar/core': 0.3.17
-      '@scalar/openapi-parser': 0.21.0(typescript@5.9.2)
+      '@scalar/openapi-parser': 0.21.1(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
@@ -7878,7 +7878,7 @@ snapshots:
 
   '@scalar/helpers@0.0.11': {}
 
-  '@scalar/json-magic@0.5.0(typescript@5.9.2)':
+  '@scalar/json-magic@0.5.1(typescript@5.9.2)':
     dependencies:
       '@scalar/helpers': 0.0.11
       vue: 3.5.21(typescript@5.9.2)
@@ -7886,9 +7886,9 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@scalar/openapi-parser@0.21.0(typescript@5.9.2)':
+  '@scalar/openapi-parser@0.21.1(typescript@5.9.2)':
     dependencies:
-      '@scalar/json-magic': 0.5.0(typescript@5.9.2)
+      '@scalar/json-magic': 0.5.1(typescript@5.9.2)
       '@scalar/openapi-types': 0.3.7
       '@scalar/openapi-upgrader': 0.1.0
       ajv: 8.17.1
@@ -8577,7 +8577,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8903,7 +8903,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
