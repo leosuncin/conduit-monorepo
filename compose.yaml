@@ -79,7 +79,7 @@ services:
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock:ro'
   postgres:
-    image: postgres:17-alpine
+    image: postgres:18-alpine
     env_file: .env
     volumes:
       - postgres-data:/var/lib/postgresql/data
