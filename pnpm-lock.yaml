@@ -61,7 +61,7 @@ importers:
         version: 9.5.2
       '@fastify/type-provider-typebox':
         specifier: ^6.0.0
-        version: 6.0.0(typebox@1.0.13)
+        version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
         version: 1.38.1
@@ -1126,8 +1126,8 @@ packages:
   '@fastify/swagger@9.5.2':
     resolution: {integrity: sha512-8e8w/LItg/cF6IR/hYKtnt+E0QImees5o3YWJsTLxaIk+tzNUEc6Z2Ursi4oOHWwUlKjUCnV6yh5z5ZdxvlsWA==}
 
-  '@fastify/type-provider-typebox@6.0.0':
-    resolution: {integrity: sha512-rzRQ/VCIRqaKiT8QMSNVw+zlbmVetRMlZLr9ZoEAKieI3aZUcJAMPCmUmUpU1BCU4nuoweOTZvZIPpnHPsa2xQ==}
+  '@fastify/type-provider-typebox@6.1.0':
+    resolution: {integrity: sha512-k29cOitDRcZhMXVjtRq0+caKxdWoArz7su+dQWGzGWnFG+fSKhevgiZ7nexHWuXOEEQzgJlh6cptIMu69beaTA==}
     peerDependencies:
       typebox: ^1.0.13
 
@@ -6978,7 +6978,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@fastify/type-provider-typebox@6.0.0(typebox@1.0.13)':
+  '@fastify/type-provider-typebox@6.1.0(typebox@1.0.13)':
     dependencies:
       typebox: 1.0.13
 
