@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@devoxa/integresql-client": "^2.1.1",
-    "@types/node": "^22.1.0",
+    "@types/node": "^24.0.0",
     "c8": "^10.1.2",
     "execa": "^9.5.2",
     "fastify-tsconfig": "^3.0.0",
