@@ -34,7 +34,7 @@
     "fastify-plugin": "^5.0.0",
     "http-status-codes": "^2.3.0",
     "postgres": "^3.4.5",
-    "read-pkg": "^9.0.1"
+    "read-pkg": "^10.0.0"
   },
   "devDependencies": {
     "@devoxa/integresql-client": "^2.1.1",
