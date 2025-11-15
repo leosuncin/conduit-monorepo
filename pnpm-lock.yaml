@@ -253,7 +253,7 @@ importers:
         version: 3.4.7
       tshy:
         specifier: ^3.0.2
-        version: 3.0.3
+        version: 3.1.0
       tsx:
         specifier: ^4.19.3
         version: 4.20.6
@@ -4109,8 +4109,8 @@ packages:
   minimalistic-assert@1.0.1:
     resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
 
-  minimatch@10.0.3:
-    resolution: {integrity: sha512-IPZ167aShDZZUMdRk66cyQAW3qr0WzbHkPdMYa8bzZhlHhO3jALbKdxcaak7W9FfT2rZNpQuUu4Od7ILEpXSaw==}
+  minimatch@10.1.1:
+    resolution: {integrity: sha512-enIvLvRAFZYXJzkCYG5RKmPfrFArdLv+R+lbQ53BmIMLIry74bjKzX6iHAm8WYamJkhSSEabrWN5D97XnKObjQ==}
     engines: {node: 20 || >=22}
 
   minimatch@9.0.5:
@@ -4346,8 +4346,8 @@ packages:
     resolution: {integrity: sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA==}
     engines: {node: '>=16 || 14 >=14.18'}
 
-  path-scurry@2.0.0:
-    resolution: {integrity: sha512-ypGJsmGtdXUOeM5u93TyeIEfEhM6s+ljAhrk5vAvSx8uyY/02OvrZnA0YNGUrPXfpJMgI1ODd3nwz8Npx4O4cg==}
+  path-scurry@2.0.1:
+    resolution: {integrity: sha512-oWyT4gICAu+kaA7QWk/jvCHWarMKNs6pXOGWKDTr7cw4IGcUbW+PeTfbaQiLGheFRpjo6O9J0PmyMfQPjH71oA==}
     engines: {node: 20 || >=22}
 
   path-type@4.0.0:
@@ -4615,8 +4615,8 @@ packages:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
 
-  resolve-import@2.0.0:
-    resolution: {integrity: sha512-jpKjLibLuc8D1XEV2+7zb0aqN7I8d12u89g/v6IsgCzdVlccMQJq4TKkPw5fbhHdxhm7nbVtN+KvOTnjFf+nEA==}
+  resolve-import@2.1.0:
+    resolution: {integrity: sha512-R4yaPV+5XQ817ryGoJdXGGkJD/gzPLrCY4eXeWDHAV8DNxsqdyqIOVu5Nc3ELMxQEj3cm/EWgFv/1K+PUFoS1A==}
     engines: {node: 20 || >=22}
 
   resolve-pkg-maps@1.0.0:
@@ -4637,8 +4637,8 @@ packages:
   rfdc@1.4.1:
     resolution: {integrity: sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==}
 
-  rimraf@6.0.1:
-    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
+  rimraf@6.1.0:
+    resolution: {integrity: sha512-DxdlA1bdNzkZK7JiNWH+BAx1x4tEJWoTofIopFo6qWUU94jYrFZ0ubY05TqH3nWPJ1nKa1JWVFDINZ3fnrle/A==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -5099,8 +5099,8 @@ packages:
   ts-toolbelt@9.6.0:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
 
-  tshy@3.0.3:
-    resolution: {integrity: sha512-bUX6HQCvVdPyPLy2VZuKw95CtYD5aRSEgYEK7IPV9l9xN/z284kl5/hIwOfLY/mZOOdhrO34dFOOcL1VUMVyaw==}
+  tshy@3.1.0:
+    resolution: {integrity: sha512-DPBaaJSqcKFLSHTiqm3Xl2Phl7m1RtLNMe7J8qyoYO+tb2EW+txRp2NHR746GcrVicUUcNzfpm0yU1suQHRIwQ==}
     engines: {node: 20 || >=22}
     hasBin: true
 
@@ -9457,10 +9457,10 @@ snapshots:
     dependencies:
       foreground-child: 3.3.1
       jackspeak: 4.1.1
-      minimatch: 10.0.3
+      minimatch: 10.1.1
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
-      path-scurry: 2.0.0
+      path-scurry: 2.0.1
 
   global-directory@4.0.1:
     dependencies:
@@ -10009,7 +10009,7 @@ snapshots:
 
   minimalistic-assert@1.0.1: {}
 
-  minimatch@10.0.3:
+  minimatch@10.1.1:
     dependencies:
       '@isaacs/brace-expansion': 5.0.0
 
@@ -10234,7 +10234,7 @@ snapshots:
       lru-cache: 10.4.3
       minipass: 7.1.2
 
-  path-scurry@2.0.0:
+  path-scurry@2.0.1:
     dependencies:
       lru-cache: 11.2.2
       minipass: 7.1.2
@@ -10504,7 +10504,7 @@ snapshots:
 
   resolve-from@5.0.0: {}
 
-  resolve-import@2.0.0:
+  resolve-import@2.1.0:
     dependencies:
       glob: 11.0.3
       walk-up-path: 4.0.0
@@ -10522,7 +10522,7 @@ snapshots:
 
   rfdc@1.4.1: {}
 
-  rimraf@6.0.1:
+  rimraf@6.1.0:
     dependencies:
       glob: 11.0.3
       package-json-from-dist: 1.0.1
@@ -10853,9 +10853,9 @@ snapshots:
     dependencies:
       glob: 11.0.3
       mkdirp: 3.0.1
-      path-scurry: 2.0.0
-      rimraf: 6.0.1
-      tshy: 3.0.3
+      path-scurry: 2.0.1
+      rimraf: 6.1.0
+      tshy: 3.1.0
 
   syncpack@13.0.4(typescript@5.9.3):
     dependencies:
@@ -10977,16 +10977,16 @@ snapshots:
 
   ts-toolbelt@9.6.0: {}
 
-  tshy@3.0.3:
+  tshy@3.1.0:
     dependencies:
       chalk: 5.6.2
       chokidar: 4.0.3
       foreground-child: 3.3.1
-      minimatch: 10.0.3
+      minimatch: 10.1.1
       mkdirp: 3.0.1
       polite-json: 5.0.0
-      resolve-import: 2.0.0
-      rimraf: 6.0.1
+      resolve-import: 2.1.0
+      rimraf: 6.1.0
       sync-content: 2.0.1
       typescript: 5.9.3
       walk-up-path: 4.0.0
