@@ -225,7 +225,7 @@ importers:
         version: 2.3.0
       snowflakify:
         specifier: ^1.0.5
-        version: 1.0.5
+        version: 1.0.6
       ts-sql-query:
         specifier: ^1.65.0
         version: 1.67.0
@@ -4830,8 +4830,8 @@ packages:
     resolution: {integrity: sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==}
     engines: {node: '>= 6.0.0', npm: '>= 3.0.0'}
 
-  snowflakify@1.0.5:
-    resolution: {integrity: sha512-QZ9QldPTAL5xRwLjYPk6SJGgOw0rB39KgNf4k7xXmlMY8zvS73SPMxqgXwNKmOyR7JjNZGjjO0vEKVhGDncRUw==}
+  snowflakify@1.0.6:
+    resolution: {integrity: sha512-RFjH+xYXwLuImLOTr6FBCo25MgN1kI9X2FeLRodE287mHi8m86jKzShoZHcMonOeI4dPqa4yP8essTWjH9TZ1w==}
     engines: {node: '>=14.5.0'}
 
   socks-proxy-agent@8.0.5:
@@ -8344,7 +8344,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8617,7 +8617,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -10711,7 +10711,7 @@ snapshots:
 
   smart-buffer@4.2.0: {}
 
-  snowflakify@1.0.5: {}
+  snowflakify@1.0.6: {}
 
   socks-proxy-agent@8.0.5:
     dependencies:
