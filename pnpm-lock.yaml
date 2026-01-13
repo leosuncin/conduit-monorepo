@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.43.2
+        version: 1.43.3
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.47
@@ -688,6 +688,10 @@ packages:
 
   '@babel/runtime@7.28.4':
     resolution: {integrity: sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/runtime@7.28.6':
+    resolution: {integrity: sha512-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/template@7.27.2':
@@ -1942,8 +1946,8 @@ packages:
     resolution: {integrity: sha512-eBp1phI8u/GZR+yy9SwRTr07n3+Va+xoZJVT6tczG799eynpXiQJuUQ4S2S1cb0cmOV0ZkwHRNG3ldMQHdJgWQ==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.43.2':
-    resolution: {integrity: sha512-ihzV/GOztj/ffTlmomumrsuu5557Ss4NpX+sgOjtaMVzfTLnLMw2tWG8OBGHRQ6qyCWLrKNUEA8wXUukqCQO8A==}
+  '@scalar/fastify-api-reference@1.43.3':
+    resolution: {integrity: sha512-4JfbHMgNh7xoyqSK1R8RnsnVsagD1rb48OAPBt5fyMyPPKgM5vL43msuQOYvqJeGRJ6sz5Aq5ikiu5g910Foxg==}
     engines: {node: '>=20'}
 
   '@scalar/helpers@0.2.6':
@@ -1954,8 +1958,8 @@ packages:
     resolution: {integrity: sha512-TWdKQ/hcy4erFQDp2MVlFoPesFep2VY96Q69cjLHmx5hxM0ZUBfmNB4lA8Uh3klgx5JmCDfSNIGjPFIpxlosUw==}
     engines: {node: '>=20'}
 
-  '@scalar/openapi-parser@0.23.11':
-    resolution: {integrity: sha512-C3+04WqQRG6mqC2DbV1PRmHutJHNcnaBGVD2mnGDyZyK5iusVjGLhL+yuqVPkOBv6PuEzscGqbJQ0yfvVa5WtA==}
+  '@scalar/openapi-parser@0.23.12':
+    resolution: {integrity: sha512-Znq9J8sXUe20YdbK2myoyeFNXgWTeZlyQUJeQu+wNsXAfWHGT68bF7aZzl99TsPHHVl3WmKDeSrWiuexfJ1u6A==}
     engines: {node: '>=20'}
 
   '@scalar/openapi-types@0.5.3':
@@ -6504,6 +6508,8 @@ snapshots:
 
   '@babel/runtime@7.28.4': {}
 
+  '@babel/runtime@7.28.6': {}
+
   '@babel/template@7.27.2':
     dependencies:
       '@babel/code-frame': 7.27.1
@@ -7639,10 +7645,10 @@ snapshots:
     dependencies:
       '@scalar/types': 0.5.6
 
-  '@scalar/fastify-api-reference@1.43.2':
+  '@scalar/fastify-api-reference@1.43.3':
     dependencies:
       '@scalar/core': 0.3.30
-      '@scalar/openapi-parser': 0.23.11
+      '@scalar/openapi-parser': 0.23.12
       '@scalar/openapi-types': 0.5.3
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
@@ -7654,7 +7660,7 @@ snapshots:
       '@scalar/helpers': 0.2.6
       yaml: 2.8.2
 
-  '@scalar/openapi-parser@0.23.11':
+  '@scalar/openapi-parser@0.23.12':
     dependencies:
       '@scalar/json-magic': 0.8.10
       '@scalar/openapi-types': 0.5.3
@@ -8313,7 +8319,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8586,7 +8592,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -11299,7 +11305,7 @@ snapshots:
 
   yup@0.32.11:
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@types/lodash': 4.17.23
       lodash: 4.17.21
       lodash-es: 4.17.22
