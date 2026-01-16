@@ -52,7 +52,7 @@ importers:
         version: 6.3.1
       '@fastify/awilix':
         specifier: ^8.0.0
-        version: 8.2.0(awilix@12.0.5)(fastify@5.7.0)
+        version: 8.2.0(awilix@12.0.5)(fastify@5.7.1)
       '@fastify/sensible':
         specifier: ^6.0.0
         version: 6.0.4
@@ -73,7 +73,7 @@ importers:
         version: 12.0.5
       fastify:
         specifier: ^5.0.0
-        version: 5.7.0
+        version: 5.7.1
       fastify-cli:
         specifier: ^7.4.0
         version: 7.4.0
@@ -3374,8 +3374,8 @@ packages:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==}
     engines: {node: '>=8.6.0'}
 
-  fast-json-stringify@6.1.1:
-    resolution: {integrity: sha512-DbgptncYEXZqDUOEl4krff4mUiVrTZZVI7BBrQR/T3BqMj/eM1flTC1Uk2uUoLcWCxjT95xKulV/Lc6hhOZsBQ==}
+  fast-json-stringify@6.2.0:
+    resolution: {integrity: sha512-Eaf/KNIDwHkzfyeQFNfLXJnQ7cl1XQI3+zRqmPlvtkMigbXnAcasTrvJQmquBSxKfFGeRA6PFog8t+hFmpDoWw==}
 
   fast-querystring@1.1.2:
     resolution: {integrity: sha512-g6KuKWmFXc0fID8WWH0jit4g0AGBoJhCkJMb1RmbsSEUNvQ+ZC8D6CUZ+GtF8nMzSPXnhiePyyqqipzNNEnHjg==}
@@ -3410,8 +3410,8 @@ packages:
     resolution: {integrity: sha512-TxFM9+MUUM2Ub6chZbP5sPNUFaPWA86kHU0VRd4o9OP6PBP92cj9c4/IEsnLoVHcLgrgXf2GUXWUzkJAO9iKFQ==}
     engines: {node: '>=20.0.0'}
 
-  fastify@5.7.0:
-    resolution: {integrity: sha512-EA1WUXWhvo+G3ed9TUm+jd8UYdnSGMpCywM1A1CtZtb+h0cKnLb0t8w3TWPN3/w55JfzKZxd959ENp2nOKnZQw==}
+  fastify@5.7.1:
+    resolution: {integrity: sha512-ZW7S4fxlZhE+tYWVokFzjh+i56R+buYKNGhrVl6DtN8sxkyMEzpJnzvO8A/ZZrsg5w6X37u6I4EOQikYS5DXpA==}
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
@@ -7152,11 +7152,11 @@ snapshots:
 
   '@fastify/autoload@6.3.1': {}
 
-  '@fastify/awilix@8.2.0(awilix@12.0.5)(fastify@5.7.0)':
+  '@fastify/awilix@8.2.0(awilix@12.0.5)(fastify@5.7.1)':
     dependencies:
       awilix: 12.0.5
       awilix-manager: 6.2.1(awilix@12.0.5)
-      fastify: 5.7.0
+      fastify: 5.7.1
       fastify-plugin: 5.1.0
 
   '@fastify/deepmerge@2.0.2': {}
@@ -7165,7 +7165,7 @@ snapshots:
 
   '@fastify/fast-json-stringify-compiler@5.0.3':
     dependencies:
-      fast-json-stringify: 6.1.1
+      fast-json-stringify: 6.2.0
 
   '@fastify/forwarded@3.0.1': {}
 
@@ -8437,7 +8437,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8710,7 +8710,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -9321,7 +9321,7 @@ snapshots:
       merge2: 1.4.1
       micromatch: 4.0.8
 
-  fast-json-stringify@6.1.1:
+  fast-json-stringify@6.2.0:
     dependencies:
       '@fastify/merge-json-schemas': 0.2.1
       ajv: 8.17.1
@@ -9352,7 +9352,7 @@ snapshots:
       close-with-grace: 2.2.0
       commist: 3.2.0
       dotenv: 16.4.7
-      fastify: 5.7.0
+      fastify: 5.7.1
       fastify-plugin: 5.1.0
       generify: 4.2.0
       help-me: 5.0.0
@@ -9374,7 +9374,7 @@ snapshots:
 
   fastify-tsconfig@3.0.0: {}
 
-  fastify@5.7.0:
+  fastify@5.7.1:
     dependencies:
       '@fastify/ajv-compiler': 4.0.5
       '@fastify/error': 4.2.0
@@ -9382,7 +9382,7 @@ snapshots:
       '@fastify/proxy-addr': 5.1.0
       abstract-logging: 2.0.1
       avvio: 9.1.0
-      fast-json-stringify: 6.1.1
+      fast-json-stringify: 6.2.0
       find-my-way: 9.4.0
       light-my-request: 6.6.0
       pino: 10.2.0
