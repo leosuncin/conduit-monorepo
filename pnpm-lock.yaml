@@ -67,7 +67,7 @@ importers:
         version: 1.43.11
       '@sinclair/typebox':
         specifier: ^0.34.33
-        version: 0.34.47
+        version: 0.34.48
       awilix:
         specifier: ^12.0.5
         version: 12.0.5
@@ -2016,8 +2016,8 @@ packages:
   '@sec-ant/readable-stream@0.4.1':
     resolution: {integrity: sha512-831qok9r2t8AlxLko40y2ebgSDhenenCatLVeW/uBtnHPyhHOvG0C7TvfgecV+wHzIm5KUICgzmVpWS+IMEAeg==}
 
-  '@sinclair/typebox@0.34.47':
-    resolution: {integrity: sha512-ZGIBQ+XDvO5JQku9wmwtabcVTHJsgSWAHYtVuM9pBNNR5E88v6Jcj/llpmsjivig5X8A8HHOb4/mbEKPS5EvAw==}
+  '@sinclair/typebox@0.34.48':
+    resolution: {integrity: sha512-kKJTNuK3AQOrgjjotVxMrCn1sUJwM76wMszfq1kdU4uYVJjvEWuFQ6HgvLt4Xz3fSmZlTOxJ/Ie13KnIcWQXFA==}
 
   '@sindresorhus/merge-streams@2.3.0':
     resolution: {integrity: sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==}
@@ -7804,7 +7804,7 @@ snapshots:
 
   '@sec-ant/readable-stream@0.4.1': {}
 
-  '@sinclair/typebox@0.34.47': {}
+  '@sinclair/typebox@0.34.48': {}
 
   '@sindresorhus/merge-streams@2.3.0': {}
 
@@ -8434,7 +8434,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8707,7 +8707,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
