@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.44.6
+        version: 1.44.9
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.48
@@ -2006,8 +2006,8 @@ packages:
     resolution: {integrity: sha512-gdgoF/XP2RkvhqGlI0l2MWTR/2522GPdaiQkWwS348Po8oCkJy2npxFuZbC2jtp6DIrWDrOD6qYgHssyzMmcrA==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.44.6':
-    resolution: {integrity: sha512-QAsx2htGSmV2/7Rj8CevUKemQgeEVviZtyeABzWy9ZeuNgGmBiwNE/wKB5zrYls9+fNqyz1zvArhASS3zxHl/A==}
+  '@scalar/fastify-api-reference@1.44.9':
+    resolution: {integrity: sha512-qGA7dNRN38B8y8a2mOSPYX3tJtL0knVUN7YCNlSjmOm8flCQh4wchE5qKBf0R2KFFiwrc9Hd0QkEBLiT9EAc2w==}
     engines: {node: '>=20'}
 
   '@scalar/helpers@0.2.10':
@@ -5206,8 +5206,8 @@ packages:
     resolution: {integrity: sha512-xxCJm+Bckc6kQBknN7i9fnP/xobQRsRQxR01CztFkp/h++yfVxUUcmMgfR2HttJx/dpWjS9ubVuyspJv24Q9DA==}
     engines: {node: '>=20'}
 
-  type-fest@5.4.2:
-    resolution: {integrity: sha512-FLEenlVYf7Zcd34ISMLo3ZzRE1gRjY1nMDTp+bQRBiPsaKyIW8K3Zr99ioHDUgA9OGuGGJPyYpNcffGmBhJfGg==}
+  type-fest@5.4.3:
+    resolution: {integrity: sha512-AXSAQJu79WGc79/3e9/CR77I/KQgeY1AhNvcShIH4PTcGYyC4xv6H4R4AUOwkPS5799KlVDAu8zExeCrkGquiA==}
     engines: {node: '>=20'}
 
   type-is@2.0.1:
@@ -7724,7 +7724,7 @@ snapshots:
     dependencies:
       '@scalar/types': 0.6.1
 
-  '@scalar/fastify-api-reference@1.44.6':
+  '@scalar/fastify-api-reference@1.44.9':
     dependencies:
       '@scalar/core': 0.3.36
       '@scalar/openapi-parser': 0.24.6
@@ -7764,7 +7764,7 @@ snapshots:
     dependencies:
       '@scalar/helpers': 0.2.10
       nanoid: 5.1.6
-      type-fest: 5.4.2
+      type-fest: 5.4.3
       zod: 4.3.6
 
   '@sec-ant/readable-stream@0.4.1': {}
@@ -8395,7 +8395,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8663,7 +8663,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -11063,7 +11063,7 @@ snapshots:
     dependencies:
       tagged-tag: 1.0.0
 
-  type-fest@5.4.2:
+  type-fest@5.4.3:
     dependencies:
       tagged-tag: 1.0.0
 
