@@ -52,7 +52,7 @@ importers:
         version: 6.3.1
       '@fastify/awilix':
         specifier: ^8.0.0
-        version: 8.2.0(awilix@12.0.5)(fastify@5.7.4)
+        version: 8.2.0(awilix@12.1.0)(fastify@5.7.4)
       '@fastify/sensible':
         specifier: ^6.0.0
         version: 6.0.4
@@ -70,7 +70,7 @@ importers:
         version: 0.34.48
       awilix:
         specifier: ^12.0.5
-        version: 12.0.5
+        version: 12.1.0
       fastify:
         specifier: ^5.0.0
         version: 5.7.4
@@ -238,7 +238,7 @@ importers:
         version: 24.10.11
       awilix:
         specifier: ^12.0.5
-        version: 12.0.5
+        version: 12.1.0
       c8:
         specifier: ^10.1.2
         version: 10.1.3(monocart-coverage-reports@2.12.9)
@@ -2776,8 +2776,8 @@ packages:
     peerDependencies:
       awilix: '>=9.0.0'
 
-  awilix@12.0.5:
-    resolution: {integrity: sha512-Qf/V/hRo6DK0FoBKJ9QiObasRxHAhcNi0mV6kW2JMawxS3zq6Un+VsZmVAZDUfvB+MjTEiJ2tUJUl4cr0JiUAw==}
+  awilix@12.1.0:
+    resolution: {integrity: sha512-9ZgF5IHQQvvpgKasxNU2WAzQLVKmRBwjEm8zksqPxtAdrmmCRMVjIgeOTr/kOE4O9EcUXl/qRbtjXh8ucV0CkQ==}
     engines: {node: '>=16.3.0'}
 
   aws-sign2@0.7.0:
@@ -2872,9 +2872,6 @@ packages:
   callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
-
-  camel-case@4.1.2:
-    resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
 
   caniuse-lite@1.0.30001769:
     resolution: {integrity: sha512-BCfFL1sHijQlBGWBMuJyhZUhzo7wer5sVj9hqekB/7xn0Ypy+pER/edCYQm4exbXj4WiySGp40P8UuTh6w1srg==}
@@ -4056,9 +4053,6 @@ packages:
   loupe@2.3.7:
     resolution: {integrity: sha512-zSMINGVYkdpYSOBmLi0D1Uo7JU9nVdQKrHxC8eYlV+9YKK9WePqAlL7lSlorG/U2Fw1w0hTBmaa/jrQ3UbPHtA==}
 
-  lower-case@2.0.2:
-    resolution: {integrity: sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==}
-
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
 
@@ -4215,9 +4209,6 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  no-case@3.0.4:
-    resolution: {integrity: sha512-fgAN3jGAh+RoxUGZHTSOLJIqUc2wmoBwGR4tbpNAKmmovFoWq0OdRkb0VkldReO2a2iBT/OEulG9XSUc10r3zg==}
-
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
     engines: {node: 4.x || >=6.0.0}
@@ -4353,9 +4344,6 @@ packages:
 
   parse5@8.0.0:
     resolution: {integrity: sha512-9m4m5GSgXjL4AjumKzq1Fgfp3Z8rsvjRNbnkVwfu2ImRqE5D0LnY2QfDen18FSY9C573YU5XxSapdHZTZ2WolA==}
-
-  pascal-case@3.1.2:
-    resolution: {integrity: sha512-uWlGT3YSnK9x3BQJaOdcZwrnV6hPpd8jFH1/ucpiLRPh/2zCVJKS19E4GvYHvaCcACn3foXZ0cLB9Wrx1KGe5g==}
 
   path-exists@3.0.0:
     resolution: {integrity: sha512-bpC7GYwiDYQ4wYLe+FA8lhRjhQCMcQGuSgGGqDkg/QerRWw9CmGRT0iSOVRSZJ29NMLZgIzqaljJ63oaL4NIJQ==}
@@ -7014,10 +7002,10 @@ snapshots:
 
   '@fastify/autoload@6.3.1': {}
 
-  '@fastify/awilix@8.2.0(awilix@12.0.5)(fastify@5.7.4)':
+  '@fastify/awilix@8.2.0(awilix@12.1.0)(fastify@5.7.4)':
     dependencies:
-      awilix: 12.0.5
-      awilix-manager: 6.2.1(awilix@12.0.5)
+      awilix: 12.1.0
+      awilix-manager: 6.2.1(awilix@12.1.0)
       fastify: 5.7.4
       fastify-plugin: 5.1.0
 
@@ -8552,13 +8540,12 @@ snapshots:
       '@fastify/error': 4.2.0
       fastq: 1.20.1
 
-  awilix-manager@6.2.1(awilix@12.0.5):
+  awilix-manager@6.2.1(awilix@12.1.0):
     dependencies:
-      awilix: 12.0.5
+      awilix: 12.1.0
 
-  awilix@12.0.5:
+  awilix@12.1.0:
     dependencies:
-      camel-case: 4.1.2
       fast-glob: 3.3.3
 
   aws-sign2@0.7.0: {}
@@ -8670,11 +8657,6 @@ snapshots:
       get-intrinsic: 1.3.0
 
   callsites@3.1.0: {}
-
-  camel-case@4.1.2:
-    dependencies:
-      pascal-case: 3.1.2
-      tslib: 2.8.1
 
   caniuse-lite@1.0.30001769: {}
 
@@ -9889,10 +9871,6 @@ snapshots:
     dependencies:
       get-func-name: 2.0.2
 
-  lower-case@2.0.2:
-    dependencies:
-      tslib: 2.8.1
-
   lru-cache@10.4.3: {}
 
   lru-cache@11.2.4: {}
@@ -10011,11 +9989,6 @@ snapshots:
   nanoid@5.1.6: {}
 
   neo-async@2.6.2: {}
-
-  no-case@3.0.4:
-    dependencies:
-      lower-case: 2.0.2
-      tslib: 2.8.1
 
   node-fetch@2.7.0:
     dependencies:
@@ -10159,11 +10132,6 @@ snapshots:
   parse5@8.0.0:
     dependencies:
       entities: 6.0.1
-
-  pascal-case@3.1.2:
-    dependencies:
-      no-case: 3.0.4
-      tslib: 2.8.1
 
   path-exists@3.0.0: {}
 
