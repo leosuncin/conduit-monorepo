@@ -60,7 +60,7 @@
     "typescript": "^5.7.2"
   },
   "peerDependencies": {
-    "awilix": "^12.0.5",
+    "awilix": "^12.0.5 || ^13.0.0",
     "postgres": "^3.4.0"
   },
   "tshy": {
