@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.46.1
+        version: 1.46.2
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.48
@@ -1951,8 +1951,8 @@ packages:
     resolution: {integrity: sha512-gFKfUzu1uwg2/jwL8Itf2KpnJexZ7oc48/iS0wjqd0xTVos/AxTB83CYvI2vGnGeNpj3TauOHrts39RNaKOZcg==}
     engines: {node: '>=20'}
 
-  '@scalar/fastify-api-reference@1.46.1':
-    resolution: {integrity: sha512-EtjTUwGoSZNrKn01JRhyDfkLF8MYXsEjUSU+bIpEaQT6h343JtnCGKheVeVCyS3GPsvIopFNsmRITlZnavIZAw==}
+  '@scalar/fastify-api-reference@1.46.2':
+    resolution: {integrity: sha512-2IuubKggjzb8+HVSkSOnlcmszqIdln9ygnqXd4G8RMk2ZbyKlH1hmOUuR4YI3y4nuvbqvUjUS827EOrs7/En9A==}
     engines: {node: '>=20'}
 
   '@scalar/helpers@0.2.17':
@@ -7525,7 +7525,7 @@ snapshots:
     dependencies:
       '@scalar/types': 0.6.9
 
-  '@scalar/fastify-api-reference@1.46.1':
+  '@scalar/fastify-api-reference@1.46.2':
     dependencies:
       '@scalar/core': 0.3.44
       '@scalar/openapi-parser': 0.24.16
