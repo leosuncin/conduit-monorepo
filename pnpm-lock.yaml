@@ -52,7 +52,7 @@ importers:
         version: 6.3.1
       '@fastify/awilix':
         specifier: ^8.0.0
-        version: 8.2.0(awilix@13.0.3)(fastify@5.8.1)
+        version: 8.2.0(awilix@13.0.3)(fastify@5.8.2)
       '@fastify/sensible':
         specifier: ^6.0.0
         version: 6.0.4
@@ -73,7 +73,7 @@ importers:
         version: 13.0.3
       fastify:
         specifier: ^5.0.0
-        version: 5.8.1
+        version: 5.8.2
       fastify-cli:
         specifier: ^7.4.0
         version: 7.4.0
@@ -3373,8 +3373,8 @@ packages:
     resolution: {integrity: sha512-TxFM9+MUUM2Ub6chZbP5sPNUFaPWA86kHU0VRd4o9OP6PBP92cj9c4/IEsnLoVHcLgrgXf2GUXWUzkJAO9iKFQ==}
     engines: {node: '>=20.0.0'}
 
-  fastify@5.8.1:
-    resolution: {integrity: sha512-y0kicFvvn7CYWoPOVLOcvn4YyKQz03DIY7UxmyOy21/J8eXm09R+tmb+tVDBW5h+pja30cHI5dqUcSlvY86V2A==}
+  fastify@5.8.2:
+    resolution: {integrity: sha512-lZmt3navvZG915IE+f7/TIVamxIwmBd+OMB+O9WBzcpIwOo6F0LTh0sluoMFk5VkrKTvvrwIaoJPkir4Z+jtAg==}
 
   fastq@1.20.1:
     resolution: {integrity: sha512-GGToxJ/w1x32s/D2EKND7kTil4n8OVk/9mycTc4VDza13lOvpUZTGX3mFSCtV9ksdGBVzvsyAVLM6mHFThxXxw==}
@@ -6930,11 +6930,11 @@ snapshots:
 
   '@fastify/autoload@6.3.1': {}
 
-  '@fastify/awilix@8.2.0(awilix@13.0.3)(fastify@5.8.1)':
+  '@fastify/awilix@8.2.0(awilix@13.0.3)(fastify@5.8.2)':
     dependencies:
       awilix: 13.0.3
       awilix-manager: 6.2.1(awilix@13.0.3)
-      fastify: 5.8.1
+      fastify: 5.8.2
       fastify-plugin: 5.1.0
 
   '@fastify/deepmerge@2.0.2': {}
@@ -8218,7 +8218,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8494,7 +8494,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -9107,7 +9107,7 @@ snapshots:
       close-with-grace: 2.2.0
       commist: 3.2.0
       dotenv: 16.4.7
-      fastify: 5.8.1
+      fastify: 5.8.2
       fastify-plugin: 5.1.0
       generify: 4.2.0
       help-me: 5.0.0
@@ -9129,7 +9129,7 @@ snapshots:
 
   fastify-tsconfig@3.0.0: {}
 
-  fastify@5.8.1:
+  fastify@5.8.2:
     dependencies:
       '@fastify/ajv-compiler': 4.0.5
       '@fastify/error': 4.2.0
