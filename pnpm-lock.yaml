@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.48.7
+        version: 1.48.8
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.48
@@ -1934,8 +1934,8 @@ packages:
     resolution: {integrity: sha512-Fp/J5RyajknwZrDG5/nsJRxL07cS2gJ9wvnvIWcFgsR8HWy/7qMQ+PtpYhdBmMYiBAql1JJobKTu/7ZWqnHaFA==}
     engines: {node: '>=22'}
 
-  '@scalar/fastify-api-reference@1.48.7':
-    resolution: {integrity: sha512-f0UA9Kemw82KZryupiK2F7Tv5N236n07GP0vyfyIAsVjygQk97DFBTWA9QcXJjiMJkI2t8ZhSl97ZxULfwJBtQ==}
+  '@scalar/fastify-api-reference@1.48.8':
+    resolution: {integrity: sha512-hRhVua/pEzC6/HFP8ja7otZLklrHnbBmk4hWAZGqqALBp5Zg8ojrzB9JFOxnO0dlmH5Aaov0T7BrTGxh2j+krA==}
     engines: {node: '>=22'}
 
   '@scalar/helpers@0.4.1':
@@ -4197,8 +4197,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@5.1.6:
-    resolution: {integrity: sha512-c7+7RQ+dMB5dPwwCp4ee1/iV/q2P6aK1mTZcfr1BTuVlyW9hJYiMPybJCcnBlQtuSmTIWNeazm/zqNoZSSElBg==}
+  nanoid@5.1.7:
+    resolution: {integrity: sha512-ua3NDgISf6jdwezAheMOk4mbE1LXjm1DfMUDMuJf4AqxLFK3ccGpgWizwa5YV7Yz9EpXwEaWoRXSb/BnV0t5dQ==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -7577,7 +7577,7 @@ snapshots:
     dependencies:
       '@scalar/types': 0.7.3
 
-  '@scalar/fastify-api-reference@1.48.7':
+  '@scalar/fastify-api-reference@1.48.8':
     dependencies:
       '@scalar/core': 0.4.3
       '@scalar/openapi-parser': 0.25.3
@@ -7617,7 +7617,7 @@ snapshots:
   '@scalar/types@0.7.3':
     dependencies:
       '@scalar/helpers': 0.4.1
-      nanoid: 5.1.6
+      nanoid: 5.1.7
       type-fest: 5.4.4
       zod: 4.3.6
 
@@ -8265,7 +8265,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8536,7 +8536,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -9946,7 +9946,7 @@ snapshots:
 
   nanoid@3.3.8: {}
 
-  nanoid@5.1.6: {}
+  nanoid@5.1.7: {}
 
   neo-async@2.6.2: {}
 
