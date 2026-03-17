@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.48.8
+        version: 1.49.0
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.48
@@ -1938,8 +1938,8 @@ packages:
     resolution: {integrity: sha512-Fp/J5RyajknwZrDG5/nsJRxL07cS2gJ9wvnvIWcFgsR8HWy/7qMQ+PtpYhdBmMYiBAql1JJobKTu/7ZWqnHaFA==}
     engines: {node: '>=22'}
 
-  '@scalar/fastify-api-reference@1.48.8':
-    resolution: {integrity: sha512-hRhVua/pEzC6/HFP8ja7otZLklrHnbBmk4hWAZGqqALBp5Zg8ojrzB9JFOxnO0dlmH5Aaov0T7BrTGxh2j+krA==}
+  '@scalar/fastify-api-reference@1.49.0':
+    resolution: {integrity: sha512-xa9cqjRtoCYgsTqrDJ8RuyD3WIzBLJSwg8ZXsoEnFz21DuqT3v8JSKy7N3/OsH7itE/W566s6m8pVAR3km9yoQ==}
     engines: {node: '>=22'}
 
   '@scalar/helpers@0.4.1':
@@ -1950,8 +1950,8 @@ packages:
     resolution: {integrity: sha512-SX4LbdCk/0JLP4t4oz1nzqfMzHsG9gY1jSgKB7Q2BsQHJ4V1zapQ+aFrMmbjaCrz8hueGG/3UCtgyWBNuGmT9g==}
     engines: {node: '>=22'}
 
-  '@scalar/openapi-parser@0.25.3':
-    resolution: {integrity: sha512-uiqUxWMYYDrAdwK7qOgbrYW2RsULog1Bv47ehACwCzTJecP1Z/Uez4+UH/Ltqn0hNXPQ56yCzYwaIVcc3td+Jw==}
+  '@scalar/openapi-parser@0.25.4':
+    resolution: {integrity: sha512-6gxv/wsMtFoy7RpSiIwjv5VL5pvJXzu1fJvMdtq5WXVnKIHPIPrk7XILZjQpv0eb3iR0CZcKkvGbq96dkzai5Q==}
     engines: {node: '>=22'}
 
   '@scalar/openapi-types@0.6.0':
@@ -7586,10 +7586,10 @@ snapshots:
     dependencies:
       '@scalar/types': 0.7.3
 
-  '@scalar/fastify-api-reference@1.48.8':
+  '@scalar/fastify-api-reference@1.49.0':
     dependencies:
       '@scalar/core': 0.4.3
-      '@scalar/openapi-parser': 0.25.3
+      '@scalar/openapi-parser': 0.25.4
       '@scalar/openapi-types': 0.6.0
       fastify-plugin: 4.5.1
       github-slugger: 2.0.0
@@ -7602,7 +7602,7 @@ snapshots:
       pathe: 2.0.3
       yaml: 2.8.2
 
-  '@scalar/openapi-parser@0.25.3':
+  '@scalar/openapi-parser@0.25.4':
     dependencies:
       '@scalar/helpers': 0.4.1
       '@scalar/json-magic': 0.12.3
@@ -8274,7 +8274,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8545,7 +8545,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
