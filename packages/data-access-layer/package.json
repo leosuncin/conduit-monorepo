@@ -55,7 +55,7 @@
     "execa": "^9.5.2",
     "monocart-coverage-reports": "^2.12.3",
     "postgres": "^3.4.5",
-    "tshy": "^3.0.2",
+    "tshy": "^4.0.0",
     "tsx": "^4.19.3",
     "typescript": "^6.0.0"
   },
