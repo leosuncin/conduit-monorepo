@@ -98,7 +98,7 @@ importers:
         version: 2.1.2
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.1
+        version: 24.12.2
       c8:
         specifier: ^11.0.0
         version: 11.0.0(monocart-coverage-reports@2.12.9)
@@ -235,7 +235,7 @@ importers:
         version: 2.1.2
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.1
+        version: 24.12.2
       awilix:
         specifier: ^13.0.0
         version: 13.0.3
@@ -2520,8 +2520,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@24.12.1':
-    resolution: {integrity: sha512-v6Ct1W1Fdz7xg5jYCg4FTrbNcIqzds2jv/HL6+5Rs/Cyjf0oljAgW59zvDZXyYG7nt9MLrAFJv9erP/fLjwt+g==}
+  '@types/node@24.12.2':
+    resolution: {integrity: sha512-A1sre26ke7HDIuY/M23nd9gfB+nrmhtYyMINbjI1zHJxYteKR6qSMX56FsmjMcDb3SMcjJg5BiRRgOCC/yBD0g==}
 
   '@types/node@25.0.9':
     resolution: {integrity: sha512-/rpCXHlCWeqClNBwUhDcusJxXYDjZTyE8v5oTO7WbL8eij2nKhUeU89/6xgjU7N4/Vh3He0BtyhJdQbDyhiXAw==}
@@ -8133,7 +8133,7 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@24.12.1':
+  '@types/node@24.12.2':
     dependencies:
       undici-types: 7.16.0
 
