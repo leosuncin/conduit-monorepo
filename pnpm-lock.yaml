@@ -88,7 +88,7 @@ importers:
         version: 2.3.0
       postgres:
         specifier: ^3.4.5
-        version: 3.4.8
+        version: 3.4.9
       read-pkg:
         specifier: ^10.0.0
         version: 10.1.0
@@ -250,7 +250,7 @@ importers:
         version: 2.12.9
       postgres:
         specifier: ^3.4.5
-        version: 3.4.8
+        version: 3.4.9
       tshy:
         specifier: ^4.0.0
         version: 4.0.0
@@ -4365,8 +4365,8 @@ packages:
     resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postgres@3.4.8:
-    resolution: {integrity: sha512-d+JFcLM17njZaOLkv6SCev7uoLaBtfK86vMUXhW1Z4glPWh4jozno9APvW/XKFJ3CCxVoC7OL38BqRydtu5nGg==}
+  postgres@3.4.9:
+    resolution: {integrity: sha512-GD3qdB0x1z9xgFI6cdRD6xu2Sp2WCOEoe3mtnyB5Ee0XrrL5Pe+e4CCnJrRMnL1zYtRDZmQQVbvOttLnKDLnaw==}
     engines: {node: '>=12'}
 
   postman-request@2.88.1-postman.42:
@@ -10029,7 +10029,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postgres@3.4.8: {}
+  postgres@3.4.9: {}
 
   postman-request@2.88.1-postman.42:
     dependencies:
