@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.50.0
+        version: 1.51.0
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.49
@@ -1934,8 +1934,8 @@ packages:
     resolution: {integrity: sha512-lIlCUx0O18ei63j7Z7QTAVAuh66sdms9zoDPhpDOzHTVObnb7n0f3J306sT3H9KQsoWKQrEsnKx4LcZLw/TlPw==}
     engines: {node: '>=22'}
 
-  '@scalar/fastify-api-reference@1.50.0':
-    resolution: {integrity: sha512-Y5cNAjM9B1f5QmIpPSCfaznZUuKtbD8ekyJ26zDcHArMDURX4O6D1JpchuSgOYsclpdXg1g7OOj7GCrZZX9wJw==}
+  '@scalar/fastify-api-reference@1.51.0':
+    resolution: {integrity: sha512-XaD1CrZvfppraZ4M6kQqfOKvVQJgVNdABGoNLRCRVZ6y0MX4J/67uIyLLzl29VyC2V+n/t3jArduuZqkFCPkLw==}
     engines: {node: '>=22'}
 
   '@scalar/helpers@0.4.3':
@@ -7493,7 +7493,7 @@ snapshots:
     dependencies:
       '@scalar/types': 0.7.6
 
-  '@scalar/fastify-api-reference@1.50.0':
+  '@scalar/fastify-api-reference@1.51.0':
     dependencies:
       '@scalar/core': 0.4.6
       '@scalar/openapi-parser': 0.25.8
@@ -8191,7 +8191,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8462,7 +8462,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
