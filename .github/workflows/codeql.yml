@@ -59,7 +59,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v6
     - name: Setup PNPM
-      uses: wyvox/action-setup-pnpm@v3
+      uses: wyvox/action-setup-pnpm@v4
       with:
         node-version: lts/*
         args: --frozen-lockfile
