@@ -198,7 +198,7 @@ importers:
         version: 6.0.1(vite@8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
       jsdom:
         specifier: ^29.0.0
-        version: 29.1.0
+        version: 29.1.1
       typescript:
         specifier: ^6.0.0
         version: 6.0.3
@@ -210,7 +210,7 @@ importers:
         version: 8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3)
       vitest:
         specifier: ^4.0.0
-        version: 4.1.5(@types/node@25.0.9)(jsdom@29.1.0)(vite@8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
+        version: 4.1.5(@types/node@25.0.9)(jsdom@29.1.1)(vite@8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
       web-vitals:
         specifier: ^5.0.0
         version: 5.2.0
@@ -3813,8 +3813,8 @@ packages:
       '@babel/preset-env':
         optional: true
 
-  jsdom@29.1.0:
-    resolution: {integrity: sha512-YNUc7fB9QuvSSQWfrH0xF+TyABkxUwx8sswgIDaCrw4Hol8BghdZDkITtZheRJeMtzWlnTfsM3bBBusRvpO1wg==}
+  jsdom@29.1.1:
+    resolution: {integrity: sha512-ECi4Fi2f7BdJtUKTflYRTiaMxIB0O6zfR1fX0GXpUrf6flp8QIYn1UT20YQqdSOfk2dfkCwS8LAFoJDEppNK5Q==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     peerDependencies:
       canvas: ^3.0.0
@@ -4966,11 +4966,11 @@ packages:
     resolution: {integrity: sha512-Bf+ILmBgretUrdJxzXM0SgXLZ3XfiaUuOj/IKQHuTXip+05Xn+uyEYdVg0kYDipTBcLrCVyUzAPz7QmArb0mmw==}
     engines: {node: '>=14.0.0'}
 
-  tldts-core@7.0.28:
-    resolution: {integrity: sha512-7W5Efjhsc3chVdFhqtaU0KtK32J37Zcr9RKtID54nG+tIpcY79CQK/veYPODxtD/LJ4Lue66jvrQzIX2Z2/pUQ==}
+  tldts-core@7.0.29:
+    resolution: {integrity: sha512-W99NuU7b1DcG3uJ3v9k9VztCH3WialNbBkBft5wCs8V8mexu0XQqaZEYb9l9RNNzK8+3EJ9PKWB0/RUtTQ/o+Q==}
 
-  tldts@7.0.28:
-    resolution: {integrity: sha512-+Zg3vWhRUv8B1maGSTFdev9mjoo8Etn2Ayfs4cnjlD3CsGkxXX4QyW3j2WJ0wdjYcYmy7Lx2RDsZMhgCWafKIw==}
+  tldts@7.0.29:
+    resolution: {integrity: sha512-JIXCerhudr/N6OWLwLF1HVsTTUo7ry6qHa5eWZEkiMuxsIiAACL55tGLfqfHfoH7QaMQUW8fngD7u7TxWexYQg==}
     hasBin: true
 
   tmp@0.2.3:
@@ -8198,7 +8198,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8476,7 +8476,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -9525,7 +9525,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsdom@29.1.0:
+  jsdom@29.1.1:
     dependencies:
       '@asamuzakjp/css-color': 5.1.11
       '@asamuzakjp/dom-selector': 7.1.1
@@ -10614,11 +10614,11 @@ snapshots:
 
   tinyrainbow@3.1.0: {}
 
-  tldts-core@7.0.28: {}
+  tldts-core@7.0.29: {}
 
-  tldts@7.0.28:
+  tldts@7.0.29:
     dependencies:
-      tldts-core: 7.0.28
+      tldts-core: 7.0.29
 
   tmp@0.2.3: {}
 
@@ -10643,7 +10643,7 @@ snapshots:
 
   tough-cookie@6.0.1:
     dependencies:
-      tldts: 7.0.28
+      tldts: 7.0.29
 
   tr46@0.0.3: {}
 
@@ -10829,7 +10829,7 @@ snapshots:
       tsx: 4.21.0
       yaml: 2.8.3
 
-  vitest@4.1.5(@types/node@25.0.9)(jsdom@29.1.0)(vite@8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3)):
+  vitest@4.1.5(@types/node@25.0.9)(jsdom@29.1.1)(vite@8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3)):
     dependencies:
       '@vitest/expect': 4.1.5
       '@vitest/mocker': 4.1.5(vite@8.0.10(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(tsx@4.21.0)(yaml@2.8.3))
@@ -10853,7 +10853,7 @@ snapshots:
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 25.0.9
-      jsdom: 29.1.0
+      jsdom: 29.1.1
     transitivePeerDependencies:
       - msw
 
