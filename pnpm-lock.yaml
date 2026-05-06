@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.55.2
+        version: 1.55.3
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.49
@@ -1941,8 +1941,8 @@ packages:
     resolution: {integrity: sha512-IDzjKF93jrOljlvKBsLHXT1FPWgz56jFrMPC+iLihREp1qH8wF92mG8Zpakw8cURkEuw5WijRk0xNBP2moGyuw==}
     engines: {node: '>=22'}
 
-  '@scalar/fastify-api-reference@1.55.2':
-    resolution: {integrity: sha512-dPmhy/MiCKD5DQf9sF0y3jLINlGl9uyWazR5UCmWic2zgVekvIyKul76d6CaG4uIDDf0KP9+xxTgQwi+ae/oLg==}
+  '@scalar/fastify-api-reference@1.55.3':
+    resolution: {integrity: sha512-0WtQSaggc6UF9sRIzOmoDszhI+MSuo6a86mOEC8fvpMdYnbvCGSOhst3HGNf6gGn6XEUMI0YMi9GkjO3dLAzDg==}
     engines: {node: '>=22'}
 
   '@scalar/helpers@0.6.0':
@@ -3364,8 +3364,8 @@ packages:
   fast-uri@3.1.0:
     resolution: {integrity: sha512-iPeeDKJSWf4IEOasVVrknXpaBV0IApz/gp7S2bb7Z4Lljbl2MGJRqInZiUrQwV16cpzw/D3S5j5Julj/gT52AA==}
 
-  fast-uri@3.1.1:
-    resolution: {integrity: sha512-h2r7rcm6Ee/J8o0LD5djLuFVcfbZxhvho4vvsbeV0aMvXjUgqv4YpxpkEx0d68l6+IleVfLAdVEfhR7QNMkGHQ==}
+  fast-uri@3.1.2:
+    resolution: {integrity: sha512-rVjf7ArG3LTk+FS6Yw81V1DLuZl1bRbNrev6Tmd/9RaroeeRRJhAt7jg/6YFxbvAQXUCavSoZhPPj6oOx+5KjQ==}
 
   fast-xml-parser@4.4.1:
     resolution: {integrity: sha512-xkjOecfnKGkSsOwtZ5Pz7Us/T6mrbPQrq0nh+aCO5V9nk5NLWmasAHumTKjiPJPWANe+kAZ84Jc8ooJkzZ88Sw==}
@@ -7502,7 +7502,7 @@ snapshots:
     dependencies:
       '@scalar/types': 0.9.6
 
-  '@scalar/fastify-api-reference@1.55.2':
+  '@scalar/fastify-api-reference@1.55.3':
     dependencies:
       '@scalar/client-side-rendering': 0.1.7
       '@scalar/openapi-parser': 0.28.2
@@ -8394,7 +8394,7 @@ snapshots:
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.1
+      fast-uri: 3.1.2
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -9073,7 +9073,7 @@ snapshots:
 
   fast-uri@3.1.0: {}
 
-  fast-uri@3.1.1: {}
+  fast-uri@3.1.2: {}
 
   fast-xml-parser@4.4.1:
     dependencies:
