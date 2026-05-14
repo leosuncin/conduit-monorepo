@@ -195,7 +195,7 @@ importers:
         version: 19.2.3(@types/react@19.2.14)
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.0.1(vite@8.0.13(@types/node@25.0.9)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.21.1)(yaml@2.8.4))
+        version: 6.0.2(vite@8.0.13(@types/node@25.0.9)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.21.1)(yaml@2.8.4))
       jsdom:
         specifier: ^29.0.0
         version: 29.1.1
@@ -1775,9 +1775,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rolldown/pluginutils@1.0.0-rc.7':
-    resolution: {integrity: sha512-qujRfC8sFVInYSPPMLQByRh7zhwkGFS4+tyMQ83srV1qrxL4g8E2tyxVVyxd0+8QeBM1mIk9KbWxkegRr76XzA==}
-
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
@@ -2473,8 +2470,8 @@ packages:
     engines: {node: '>=6.0'}
     hasBin: true
 
-  '@vitejs/plugin-react@6.0.1':
-    resolution: {integrity: sha512-l9X/E3cDb+xY3SWzlG1MOGt2usfEHGMNIaegaUGFsLkb3RCn/k8/TOXBcab+OndDI4TBtktT8/9BwwW8Vi9KUQ==}
+  '@vitejs/plugin-react@6.0.2':
+    resolution: {integrity: sha512-DlSMqo4WhThw4vB8Mpn0Woe9J+Jfq1geJ61AKW0QEgLzGMNwtIMdxbDUzLxcun8W7NbJO0e2Jg/Nxm3cCSVzzg==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
       '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
@@ -7265,8 +7262,6 @@ snapshots:
   '@rolldown/binding-win32-x64-msvc@1.0.1':
     optional: true
 
-  '@rolldown/pluginutils@1.0.0-rc.7': {}
-
   '@rolldown/pluginutils@1.0.1': {}
 
   '@scalar/client-side-rendering@0.1.7':
@@ -8068,9 +8063,9 @@ snapshots:
       acorn: 8.16.0
       acorn-walk: 8.3.5
 
-  '@vitejs/plugin-react@6.0.1(vite@8.0.13(@types/node@25.0.9)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.21.1)(yaml@2.8.4))':
+  '@vitejs/plugin-react@6.0.2(vite@8.0.13(@types/node@25.0.9)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.21.1)(yaml@2.8.4))':
     dependencies:
-      '@rolldown/pluginutils': 1.0.0-rc.7
+      '@rolldown/pluginutils': 1.0.1
       vite: 8.0.13(@types/node@25.0.9)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.21.1)(yaml@2.8.4)
 
   '@vitest/expect@4.1.6':
