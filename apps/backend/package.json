@@ -29,7 +29,7 @@
     "@sinclair/typebox": "^0.34.33",
     "awilix": "^13.0.0",
     "fastify": "^5.0.0",
-    "fastify-cli": "^7.4.0",
+    "fastify-cli": "^8.0.0",
     "fastify-custom-healthcheck": "^4.0.0",
     "fastify-plugin": "^5.0.0",
     "http-status-codes": "^2.3.0",
