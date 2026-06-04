@@ -98,7 +98,7 @@ importers:
         version: 2.1.2
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.4
+        version: 24.13.0
       c8:
         specifier: ^11.0.0
         version: 11.0.0(monocart-coverage-reports@2.12.12)
@@ -235,7 +235,7 @@ importers:
         version: 2.1.2
       '@types/node':
         specifier: ^24.0.0
-        version: 24.12.4
+        version: 24.13.0
       awilix:
         specifier: ^13.0.0
         version: 13.0.3
@@ -2390,8 +2390,8 @@ packages:
   '@types/node@12.20.55':
     resolution: {integrity: sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==}
 
-  '@types/node@24.12.4':
-    resolution: {integrity: sha512-GUUEShf+PBCGW2KaXwcIt3Yk+e3pkKwWKb9GSyM9WQVE+ep2jzmHdGsHzu4wgcZy5fN9FBdVzjpBQsYlpfpgLA==}
+  '@types/node@24.13.0':
+    resolution: {integrity: sha512-5vtOqGQr4NJKeEzV441FcOi2MeG9UTWq9LqVLGneDdu4vlX17H8kQ2PA2UmNwCUGPVDj4oBjNhS7ReVEIWJJrg==}
 
   '@types/node@25.0.9':
     resolution: {integrity: sha512-/rpCXHlCWeqClNBwUhDcusJxXYDjZTyE8v5oTO7WbL8eij2nKhUeU89/6xgjU7N4/Vh3He0BtyhJdQbDyhiXAw==}
@@ -4908,6 +4908,9 @@ packages:
 
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
 
   undici@6.25.0:
     resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==}
@@ -7926,9 +7929,9 @@ snapshots:
 
   '@types/node@12.20.55': {}
 
-  '@types/node@24.12.4':
+  '@types/node@24.13.0':
     dependencies:
-      undici-types: 7.16.0
+      undici-types: 7.18.2
 
   '@types/node@25.0.9':
     dependencies:
@@ -7986,7 +7989,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4)
+      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8259,7 +8262,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4):
+  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -10440,6 +10443,8 @@ snapshots:
   typescript@6.0.3: {}
 
   undici-types@7.16.0: {}
+
+  undici-types@7.18.2: {}
 
   undici@6.25.0: {}
 
