@@ -64,7 +64,7 @@ importers:
         version: 6.1.0(typebox@1.0.13)
       '@scalar/fastify-api-reference':
         specifier: ^1.28.14
-        version: 1.58.0
+        version: 1.59.0
       '@sinclair/typebox':
         specifier: ^0.34.33
         version: 0.34.49
@@ -1777,12 +1777,12 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@scalar/client-side-rendering@0.1.13':
-    resolution: {integrity: sha512-p8V4HgEWjaCpqsnhclg1pTfjE9JA0AWRr0ocBQHexoHo+pqnSs1d83Mv9rjH7R0FZJrlCSandZZeY3DMX2gYXQ==}
+  '@scalar/client-side-rendering@0.2.0':
+    resolution: {integrity: sha512-FNTGo+5n0m56cQtb9T0XqvlrqDOfib9iXdhg6RWB2wISQa2xXpxcEAHuXiimN2jhpI3lB/myePeVCAyOCFu4bw==}
     engines: {node: '>=22'}
 
-  '@scalar/fastify-api-reference@1.58.0':
-    resolution: {integrity: sha512-1/WRYcKxfF9b7oZ5vUHdbfkrUbnoxM7sXZO+Rj98S9XGCSg8ayjnEusjRDI947dZvY7fiGtv5fEapTzo68EUCQ==}
+  '@scalar/fastify-api-reference@1.59.0':
+    resolution: {integrity: sha512-I0bL+3M1CoVEPRcN3Od0FlvIYh6vnAaK8W4oYtEDaAHRACf+8UVov/REDAAwsulQCSfm4CqEcoVvXbAOC4w4uA==}
     engines: {node: '>=22'}
 
   '@scalar/helpers@0.8.1':
@@ -1805,12 +1805,12 @@ packages:
     resolution: {integrity: sha512-D5b0rGLLZgmkO9mdW2j/ND1KBlH1u3RCpr87HPxv9P9ZSr6PtM5iLqFOJq0ACiaHjY2mikCrxgDmnUEhTzRpHQ==}
     engines: {node: '>=22'}
 
-  '@scalar/schemas@0.3.3':
-    resolution: {integrity: sha512-qDcgFu6ta5Z90L9D2P6DFKzYesU+FW5+m55SGmdI4iRMRCwj5umHpec2Y2W/SJcCF6bbUZawMxuOH2Ja6rUNpQ==}
+  '@scalar/schemas@0.4.0':
+    resolution: {integrity: sha512-xKonRX7zGhNX03/N15gtko7Lxz8Ck655nL7YnBSxlv7BHoKkt7n3R1bXYeHhqvhk+02HFKsKpUCuwxm4UQ6KZw==}
     engines: {node: '>=22'}
 
-  '@scalar/types@0.12.3':
-    resolution: {integrity: sha512-7zaXafbgTFmsJ/9AwYeExUWzXoZNyKOL0SEVAUWRaOndcjxpFCtwzuPrc1elMEWdHopWbY1Qe5pWKbE2aqG2HA==}
+  '@scalar/types@0.13.0':
+    resolution: {integrity: sha512-Phbv5YoBBFipOGH2FkS3omVxomKsTH6KvAcL4ybFOH3iVsrpIOW6die13PtH+lDdfWqE9MK31hVh5ZcxXY+ngQ==}
     engines: {node: '>=22'}
 
   '@scalar/validation@0.6.0':
@@ -7259,15 +7259,15 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@scalar/client-side-rendering@0.1.13':
+  '@scalar/client-side-rendering@0.2.0':
     dependencies:
-      '@scalar/schemas': 0.3.3
-      '@scalar/types': 0.12.3
+      '@scalar/schemas': 0.4.0
+      '@scalar/types': 0.13.0
       '@scalar/validation': 0.6.0
 
-  '@scalar/fastify-api-reference@1.58.0':
+  '@scalar/fastify-api-reference@1.59.0':
     dependencies:
-      '@scalar/client-side-rendering': 0.1.13
+      '@scalar/client-side-rendering': 0.2.0
       '@scalar/openapi-parser': 0.28.6
       '@scalar/openapi-types': 0.9.1
       fastify-plugin: 4.5.1
@@ -7300,12 +7300,12 @@ snapshots:
     dependencies:
       '@scalar/openapi-types': 0.9.1
 
-  '@scalar/schemas@0.3.3':
+  '@scalar/schemas@0.4.0':
     dependencies:
       '@scalar/helpers': 0.8.1
       '@scalar/validation': 0.6.0
 
-  '@scalar/types@0.12.3':
+  '@scalar/types@0.13.0':
     dependencies:
       '@scalar/helpers': 0.8.1
       nanoid: 5.1.11
