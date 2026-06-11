@@ -52,7 +52,7 @@ importers:
         version: 6.3.1
       '@fastify/awilix':
         specifier: ^8.0.0
-        version: 8.2.0(awilix@13.0.3)(fastify@5.8.5)
+        version: 8.2.0(awilix@13.0.4)(fastify@5.8.5)
       '@fastify/sensible':
         specifier: ^6.0.0
         version: 6.0.4
@@ -70,7 +70,7 @@ importers:
         version: 0.34.49
       awilix:
         specifier: ^13.0.0
-        version: 13.0.3
+        version: 13.0.4
       fastify:
         specifier: ^5.0.0
         version: 5.8.5
@@ -238,7 +238,7 @@ importers:
         version: 24.13.2
       awilix:
         specifier: ^13.0.0
-        version: 13.0.3
+        version: 13.0.4
       c8:
         specifier: ^11.0.0
         version: 11.0.0(monocart-coverage-reports@2.12.12)
@@ -2674,8 +2674,8 @@ packages:
     peerDependencies:
       awilix: '>=9.0.0'
 
-  awilix@13.0.3:
-    resolution: {integrity: sha512-WpgYKwf8XEPAxabPxBYGvxz1QZhyxoopQLLqpwwVqSQAvTO46yhld3M9nfMuV8t2FjsTO7DQblALD9w+C8iVKQ==}
+  awilix@13.0.4:
+    resolution: {integrity: sha512-7jL7ksLg8fB3yyZ/gEhXfDTUTUeffLYKD5exXGpj0QdqUxN/XsQKt4JOuPE6StUfPiw17D1jp0hWlLs1cLCdwA==}
     engines: {node: '>=20.0.0'}
 
   aws-sign2@0.7.0:
@@ -6701,10 +6701,10 @@ snapshots:
 
   '@fastify/autoload@6.3.1': {}
 
-  '@fastify/awilix@8.2.0(awilix@13.0.3)(fastify@5.8.5)':
+  '@fastify/awilix@8.2.0(awilix@13.0.4)(fastify@5.8.5)':
     dependencies:
-      awilix: 13.0.3
-      awilix-manager: 6.2.1(awilix@13.0.3)
+      awilix: 13.0.4
+      awilix-manager: 6.2.1(awilix@13.0.4)
       fastify: 5.8.5
       fastify-plugin: 5.1.0
 
@@ -8240,11 +8240,11 @@ snapshots:
       '@fastify/error': 4.2.0
       fastq: 1.20.1
 
-  awilix-manager@6.2.1(awilix@13.0.3):
+  awilix-manager@6.2.1(awilix@13.0.4):
     dependencies:
-      awilix: 13.0.3
+      awilix: 13.0.4
 
-  awilix@13.0.3:
+  awilix@13.0.4:
     dependencies:
       fast-glob: 3.3.3
 
