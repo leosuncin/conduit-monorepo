@@ -228,7 +228,7 @@ importers:
         version: 1.0.7
       ts-sql-query:
         specifier: ^1.65.0
-        version: 1.67.0
+        version: 1.68.0
     devDependencies:
       '@devoxa/integresql-client':
         specifier: ^2.1.1
@@ -4850,8 +4850,8 @@ packages:
   ts-extended-types@1.1.0:
     resolution: {integrity: sha512-4+uTpL5eqo/xfYdclDF43IPuflNqzysBH7LJ4ohufjZZAtnEPSS0GOszPEQS1+lg5rXujhAqQ1lAnF6QPCcz5Q==}
 
-  ts-sql-query@1.67.0:
-    resolution: {integrity: sha512-oi7ldDKE3x0JnilMAFVFavosE5VT0SdfyhjxGtXyRvnU0itotl5gb6SpLth5onGOfsD5ypI8yOCaXRpWR1KUKQ==}
+  ts-sql-query@1.68.0:
+    resolution: {integrity: sha512-JkczK1+n+qoU2CwV3vLk2lsCUj9yibQj5oSyCyP9iffTFY5mNryy1r2lN/AyTB8A5FDlc75sgNdye5cxZIrn6Q==}
 
   tshy@4.1.3:
     resolution: {integrity: sha512-uEaLO1lFhu5X58KZxS5gKCabh+xd72MfXDOHhAIvnoreBAP1F4HNpbK2m0DUmrrzpcgxvXbsdXn1A0OaQxFYqw==}
@@ -10370,7 +10370,7 @@ snapshots:
 
   ts-extended-types@1.1.0: {}
 
-  ts-sql-query@1.67.0:
+  ts-sql-query@1.68.0:
     dependencies:
       chained-error: 1.0.0
       ts-extended-types: 1.1.0
