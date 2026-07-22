@@ -212,8 +212,8 @@ importers:
         specifier: ^4.0.0
         version: 4.1.10(@types/node@25.0.9)(jsdom@29.1.1)(vite@8.1.5(@types/node@25.0.9)(esbuild@0.28.1)(jiti@2.7.0)(tsx@4.23.1)(yaml@2.9.0))
       web-vitals:
-        specifier: ^5.0.0
-        version: 5.3.0
+        specifier: ^6.0.0
+        version: 6.0.0
 
   packages/data-access-layer:
     dependencies:
@@ -5205,8 +5205,8 @@ packages:
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
 
-  web-vitals@5.3.0:
-    resolution: {integrity: sha512-q6LWsLatGYZp5VGBIOvbTj6JBV2nOmC8KvWztXBmwJcfFAzhwKwbOxhUH306XY3CcaZDUlSmSuNPBsCn0bFu+g==}
+  web-vitals@6.0.0:
+    resolution: {integrity: sha512-Guaibvy/+uNtL6Bsu4jmMJGzuSl91oeRH5iO9pPRbYftnFUr3yqT1TUNX/OE4o9HexuEMU3Kb/Wg7iKhlffZUA==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -8107,7 +8107,7 @@ snapshots:
       '@usebruno/lang': 0.23.0
       '@usebruno/requests': 0.3.0
       '@usebruno/vm2': 3.9.19
-      aws4-axios: 3.4.0(axios@1.8.4(debug@4.4.0))
+      aws4-axios: 3.4.0(axios@1.8.4)
       axios: 1.8.4(debug@4.4.0)
       axios-ntlm: 1.4.4(debug@4.4.0)
       chai: 4.5.0
@@ -8363,7 +8363,7 @@ snapshots:
 
   aws-sign2@0.7.0: {}
 
-  aws4-axios@3.4.0(axios@1.8.4(debug@4.4.0)):
+  aws4-axios@3.4.0(axios@1.8.4):
     dependencies:
       '@aws-sdk/client-sts': 3.787.0
       aws4: 1.13.2
@@ -10645,7 +10645,7 @@ snapshots:
     dependencies:
       makeerror: 1.0.12
 
-  web-vitals@5.3.0: {}
+  web-vitals@6.0.0: {}
 
   webidl-conversions@3.0.1: {}
 
