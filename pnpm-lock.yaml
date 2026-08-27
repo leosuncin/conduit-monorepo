@@ -213,7 +213,7 @@ importers:
         version: 4.1.11(@types/node@25.0.9)(jsdom@30.0.1)(vite@8.2.2(@types/node@25.0.9)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.12)(yaml@2.9.0))
       web-vitals:
         specifier: ^6.0.0
-        version: 6.1.1
+        version: 6.2.1
 
   packages/data-access-layer:
     dependencies:
@@ -5150,8 +5150,8 @@ packages:
   walker@1.0.8:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
 
-  web-vitals@6.1.1:
-    resolution: {integrity: sha512-r93gKnR6ZC2O8F3JrS0AAGIQ0v0OhXuyg4DAj2oG7K+GPkwXfUSc3ZcWeu50AsV5yIc6xxnTjERipJ6EvSw2vg==}
+  web-vitals@6.2.1:
+    resolution: {integrity: sha512-rLcLXA2sx6+9dE88NHFubwTtGxpK4yYBLj6qHPdFoCaLr0cXGb4efOqtKLlm4loGA4OEKHIQKMKzZkKyOh5ctw==}
 
   webidl-conversions@3.0.1:
     resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
@@ -10448,7 +10448,7 @@ snapshots:
     dependencies:
       makeerror: 1.0.12
 
-  web-vitals@6.1.1: {}
+  web-vitals@6.2.1: {}
 
   webidl-conversions@3.0.1: {}
 
