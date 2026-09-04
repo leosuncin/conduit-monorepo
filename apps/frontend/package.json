@@ -46,7 +46,7 @@
     "typescript": "^7.0.0",
     "unplugin-dbg": "0.1.0-rc.1",
     "vite": "^8.0.0",
-    "vitest": "^4.0.0",
+    "vitest": "^5.0.0",
     "web-vitals": "^6.0.0"
   }
 }
