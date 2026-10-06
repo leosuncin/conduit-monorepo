@@ -101,7 +101,7 @@ importers:
         version: 24.19.1
       c8:
         specifier: ^12.0.0
-        version: 12.0.0(monocart-coverage-reports@2.13.0)
+        version: 12.0.0(monocart-coverage-reports@2.13.1)
       execa:
         specifier: ^10.0.0
         version: 10.0.1
@@ -241,13 +241,13 @@ importers:
         version: 13.0.5
       c8:
         specifier: ^12.0.0
-        version: 12.0.0(monocart-coverage-reports@2.13.0)
+        version: 12.0.0(monocart-coverage-reports@2.13.1)
       execa:
         specifier: ^10.0.0
         version: 10.0.1
       monocart-coverage-reports:
         specifier: ^2.12.3
-        version: 2.13.0
+        version: 2.13.1
       postgres:
         specifier: ^3.4.5
         version: 3.4.9
@@ -2681,8 +2681,8 @@ packages:
     resolution: {integrity: sha512-HEHNfbars9v4pgpW6SO1KSPkfoS0xVOM/9UzkJltjlsHZmJasxg8aXkuZa7SMf8vKGIBhpUsPluQSqhJFCqebw==}
     engines: {node: '>=0.4.0'}
 
-  acorn@8.18.0:
-    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
+  acorn@8.19.0:
+    resolution: {integrity: sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -2984,9 +2984,9 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  commander@14.0.3:
-    resolution: {integrity: sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==}
-    engines: {node: '>=20'}
+  commander@15.0.0:
+    resolution: {integrity: sha512-z67u4ZhzCL/Tydu1lJARtEZYWbWaN7oYLHbsuzocr6y4N6WZAagG3RQ4FW61V1/0+jImpj293XfrcYnd1qxtPg==}
+    engines: {node: '>=22.12.0'}
 
   commist@3.2.0:
     resolution: {integrity: sha512-4PIMoPniho+LqXmpS5d3NuGYncG6XWlkBSVGiWycL22dd42OYdUGil2CWuzklaJoNxyxUSpO4MKIBU94viWNAw==}
@@ -4068,12 +4068,12 @@ packages:
   moment@2.30.1:
     resolution: {integrity: sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==}
 
-  monocart-coverage-reports@2.13.0:
-    resolution: {integrity: sha512-RJfwzbn+EvR0OhCSU3bX2mKd0tSv4RLvood0weoCZV1L99+kBYH0Yq5SnnBFRik7nRoEoGB4mLuZAvO1Fr3DpQ==}
+  monocart-coverage-reports@2.13.1:
+    resolution: {integrity: sha512-/PJIsB+EpaMD4mZXG+o7aRQgvrU1xZhbOZuXttHIuKxFFVuALVpdhH/uy57fPHUXXJFrzB5yHCX21fNDsvHHmA==}
     hasBin: true
 
-  monocart-locator@1.0.3:
-    resolution: {integrity: sha512-pe29W2XAoA1WQmZZqxXoP7s06ZEXUhcb81086v68cqjk1HnVL7Q/iU/WJnnetxjPcLqwb4qG8vaSGUOMQU602g==}
+  monocart-locator@1.0.6:
+    resolution: {integrity: sha512-P4DCDxeOhy59KexF3yx/kD7y64HVxHO0lskxjxAML9kTOvQnD2jTpZWFQFEFyyABx32at3t77mWLKftFfk1wHQ==}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -8269,7 +8269,7 @@ snapshots:
 
   '@usebruno/vm2@3.9.19':
     dependencies:
-      acorn: 8.18.0
+      acorn: 8.19.0
       acorn-walk: 8.3.5
 
   '@vitejs/plugin-react@6.1.2(vite@8.3.3(@types/node@25.0.9)(esbuild@0.28.2)(jiti@2.7.0)(tsx@4.23.15)(yaml@2.9.1))':
@@ -8292,13 +8292,13 @@ snapshots:
 
   acorn-loose@8.5.2:
     dependencies:
-      acorn: 8.18.0
+      acorn: 8.19.0
 
   acorn-walk@8.3.5:
     dependencies:
-      acorn: 8.18.0
+      acorn: 8.19.0
 
-  acorn@8.18.0: {}
+  acorn@8.19.0: {}
 
   agent-base@7.1.4: {}
 
@@ -8469,7 +8469,7 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  c8@12.0.0(monocart-coverage-reports@2.13.0):
+  c8@12.0.0(monocart-coverage-reports@2.13.1):
     dependencies:
       '@bcoe/v8-coverage': 1.0.2
       '@istanbuljs/schema': 0.1.3
@@ -8483,7 +8483,7 @@ snapshots:
       yargs: 18.0.0
       yargs-parser: 21.1.1
     optionalDependencies:
-      monocart-coverage-reports: 2.13.0
+      monocart-coverage-reports: 2.13.1
 
   cac@7.0.0: {}
 
@@ -8603,7 +8603,7 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  commander@14.0.3: {}
+  commander@15.0.0: {}
 
   commist@3.2.0: {}
 
@@ -9615,12 +9615,12 @@ snapshots:
 
   moment@2.30.1: {}
 
-  monocart-coverage-reports@2.13.0:
+  monocart-coverage-reports@2.13.1:
     dependencies:
-      acorn: 8.18.0
+      acorn: 8.19.0
       acorn-loose: 8.5.2
       acorn-walk: 8.3.5
-      commander: 14.0.3
+      commander: 15.0.0
       console-grid: 2.2.4
       eight-colors: 1.3.3
       foreground-child: 4.0.3
@@ -9628,9 +9628,9 @@ snapshots:
       istanbul-lib-report: 3.0.1
       istanbul-reports: 3.2.0
       lz-utils: 2.1.1
-      monocart-locator: 1.0.3
+      monocart-locator: 1.0.6
 
-  monocart-locator@1.0.3: {}
+  monocart-locator@1.0.6: {}
 
   ms@2.1.3: {}
 
@@ -10550,7 +10550,7 @@ snapshots:
 
   unplugin@2.3.2:
     dependencies:
-      acorn: 8.18.0
+      acorn: 8.19.0
       picomatch: 4.0.7
       webpack-virtual-modules: 0.6.2
 
